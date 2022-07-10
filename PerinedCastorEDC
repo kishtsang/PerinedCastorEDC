@@ -1,20 +1,7 @@
-// Javascript Perined Birthweight Curves for CastorEDC made by KD Tsang v 0.1 Alpha
+// Perined Birthweight Curves for CastorEDC made by Kishan Tsang
 
-// What is this?
-
-    // 
-
-// How to use this calculation?
-
-    // The Perined Birthweight curves are dependent on Gender, Gestational Age and Birthweight. Define the right variables in CastorEDC:
-	// Gender:             {pat_gender}        0 = 'Male'; 1 = 'Female'
-	// Gestational Age:    {pat_GA}            in days, see reference sheet for Weeks + Days
-	// Birth weight:       {pat_bweight}       in grams
-
-// That's it, p values will automatically appear in CastorEDC.
-//////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-
+// For instructions on how to use this calculation, please visit my Github @ https://github.com/kishtsang/PerinedCastorEDC/
+--------------------------------------------
 /// Real Values (the Boring stuff)
 
 // Gender: Male
@@ -22,7 +9,7 @@
 //23 weeks (exact)
 
 if ({pat_gender} == 0 && {pat_GA} == 161 && {pat_bweight} < 415) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 161 && {pat_bweight}>= 415 && {pat_bweight} <440){
     "p3-p5";
@@ -49,7 +36,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 161 && {pat_bweight}>= 700){
 //23.1
 
 else if ({pat_gender} == 0 && {pat_GA} == 162 && {pat_bweight} < 426) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 162 && {pat_bweight}>= 426 && {pat_bweight} <452){
     "p3-p5";
@@ -76,7 +63,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 162 && {pat_bweight}>= 718){
 //23.2
 
 else if ({pat_gender} == 0 && {pat_GA} == 163 && {pat_bweight} < 438) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 163 && {pat_bweight}>= 438 && {pat_bweight} <463){
     "p3-p5";
@@ -103,7 +90,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 163 && {pat_bweight}>= 736){
 //23.3
 
 else if ({pat_gender} == 0 && {pat_GA} == 164 && {pat_bweight} < 449) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 164 && {pat_bweight}>= 449 && {pat_bweight} <475){
     "p3-p5";
@@ -124,13 +111,13 @@ else if ({pat_gender} == 0 && {pat_GA} == 164 && {pat_bweight}>= 734 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 164 && {pat_bweight}>= 755){
-	    "p>97";
+        "p>97";
 }
 
 //23.4
 
 else if ({pat_gender} == 0 && {pat_GA} == 165 && {pat_bweight} < 460) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 165 && {pat_bweight}>= 460 && {pat_bweight} <487){
     "p3-p5";
@@ -151,13 +138,13 @@ else if ({pat_gender} == 0 && {pat_GA} == 165 && {pat_bweight}>= 751 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 165 && {pat_bweight}>= 773){
-	    "p>97";
+        "p>97";
 }
 
 //23.5
 
 else if ({pat_gender} == 0 && {pat_GA} == 166 && {pat_bweight} < 472) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 166 && {pat_bweight}>= 472 && {pat_bweight} <499){
     "p3-p5";
@@ -178,13 +165,13 @@ else if ({pat_gender} == 0 && {pat_GA} == 166 && {pat_bweight}>= 769 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 166 && {pat_bweight}>= 791){
-	    "p>97";
+        "p>97";
 }
 
 //23.6
 
 else if ({pat_gender} == 0 && {pat_GA} == 167 && {pat_bweight} < 483) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 167 && {pat_bweight}>= 483 && {pat_bweight} <511){
     "p3-p5";
@@ -205,13 +192,13 @@ else if ({pat_gender} == 0 && {pat_GA} == 167 && {pat_bweight}>= 786 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 167 && {pat_bweight}>= 809){
-		    "p>97";
+            "p>97";
 }
 
 // 24 weeks (exact)
 
 else if ({pat_gender} == 0 && {pat_GA} == 168 && {pat_bweight} < 495) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 168 && {pat_bweight}>= 495 && {pat_bweight} <523){
     "p3-p5";
@@ -232,13 +219,13 @@ else if ({pat_gender} == 0 && {pat_GA} == 168 && {pat_bweight}>= 804 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 168 && {pat_bweight}>= 827){
-		    "p>97";
+            "p>97";
 }
 
 //24.1
 
 else if ({pat_gender} == 0 && {pat_GA} == 169 && {pat_bweight} < 506) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 169 && {pat_bweight}>= 506 && {pat_bweight} <535){
     "p3-p5";
@@ -259,13 +246,13 @@ else if ({pat_gender} == 0 && {pat_GA} == 169 && {pat_bweight}>= 822 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 169 && {pat_bweight}>= 846){
-		    "p>97";
+            "p>97";
 }
 
 //24.2
 
 else if ({pat_gender} == 0 && {pat_GA} == 170 && {pat_bweight} < 518) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 170 && {pat_bweight}>= 518 && {pat_bweight} <547){
     "p3-p5";
@@ -286,13 +273,13 @@ else if ({pat_gender} == 0 && {pat_GA} == 170 && {pat_bweight}>= 840 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 170 && {pat_bweight}>= 864){
-		    "p>97";
+            "p>97";
 }
 
 //24.3
 
 else if ({pat_gender} == 0 && {pat_GA} == 171 && {pat_bweight} < 530) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 171 && {pat_bweight}>= 530 && {pat_bweight} <559){
     "p3-p5";
@@ -313,13 +300,13 @@ else if ({pat_gender} == 0 && {pat_GA} == 171 && {pat_bweight}>= 858 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 171 && {pat_bweight}>= 883){
-		    "p>97";
+            "p>97";
 }
 
 //24.4
 
 else if ({pat_gender} == 0 && {pat_GA} == 172 && {pat_bweight} < 542) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 172 && {pat_bweight}>= 542 && {pat_bweight} <572){
     "p3-p5";
@@ -340,13 +327,13 @@ else if ({pat_gender} == 0 && {pat_GA} == 172 && {pat_bweight}>= 876 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 172 && {pat_bweight}>= 902){
-		    "p>97";
+            "p>97";
 }
 
 //24.5
 
 else if ({pat_gender} == 0 && {pat_GA} == 173 && {pat_bweight} < 554) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 173 && {pat_bweight}>= 554 && {pat_bweight} <584){
     "p3-p5";
@@ -367,13 +354,13 @@ else if ({pat_gender} == 0 && {pat_GA} == 173 && {pat_bweight}>= 895 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 173 && {pat_bweight}>= 922){
-		    "p>97";
+            "p>97";
 }
 
 //24.6
 
 else if ({pat_gender} == 0 && {pat_GA} == 174 && {pat_bweight} < 566) {
-	"p<3";
+    "p<3";
   }
 else if ({pat_gender} == 0 && {pat_GA} == 174 && {pat_bweight}>= 566 && {pat_bweight} <597){
     "p3-p5";
@@ -394,7 +381,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 174 && {pat_bweight}>= 914 && {pat_bwe
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 174 && {pat_bweight}>= 941){
-		    "p>97";
+            "p>97";
 }
 
 // 25 weeks (exact)
@@ -1185,25 +1172,25 @@ else if ({pat_gender} == 0 && {pat_GA} == 203 && {pat_bweight}>= 1709){
 else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight} < 1040) {
     "p<3";
   }
-else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1022 && {pat_bweight} <1075){
+else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1040 && {pat_bweight} <1094){
     "p3-p5";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1075 && {pat_bweight} <1147){
+else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1094 && {pat_bweight} <1167){
     "p5-p10";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1147 && {pat_bweight} <1356){
+else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1167 && {pat_bweight} <1380){
     "p10-p50";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1356 && {pat_bweight} <1572){
+else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1380 && {pat_bweight} <1599){
     "p50-p90";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1572 && {pat_bweight} <1650){
+else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1599 && {pat_bweight} <1679){
     "p90-p95";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1650 && {pat_bweight} <1709){
+else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1679 && {pat_bweight} <1738){
     "p95-p97";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1709){
+else if ({pat_gender} == 0 && {pat_GA} == 204 && {pat_bweight}>= 1738){
             "p>97";
 }
 
@@ -1369,7 +1356,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 210 && {pat_bweight}>= 1922){
             "p>97";
 }
 
-// 31.1
+// 30.1
 
 else if ({pat_gender} == 0 && {pat_GA} == 211 && {pat_bweight} < 1169) {
     "p<3";
@@ -1396,7 +1383,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 211 && {pat_bweight}>= 1953){
             "p>97";
 }
 
-// 31.2
+// 30.2
 
 else if ({pat_gender} == 0 && {pat_GA} == 212 && {pat_bweight} < 1188) {
     "p<3";
@@ -1423,7 +1410,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 212 && {pat_bweight}>= 1984){
             "p>97";
 }
 
-// 31.3
+// 30.3
 
 else if ({pat_gender} == 0 && {pat_GA} == 213 && {pat_bweight} < 1208) {
     "p<3";
@@ -1450,7 +1437,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 213 && {pat_bweight}>= 2016){
             "p>97";
 }
 
-// 31.4
+// 30.4
 
 else if ({pat_gender} == 0 && {pat_GA} == 214 && {pat_bweight} < 1227) {
     "p<3";
@@ -1477,7 +1464,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 214 && {pat_bweight}>= 2049){
             "p>97";
 }
 
-// 31.5
+// 30.5
 
 else if ({pat_gender} == 0 && {pat_GA} == 215 && {pat_bweight} < 1247) {
     "p<3";
@@ -1504,7 +1491,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 215 && {pat_bweight}>= 2082){
             "p>97";
 }
 
-// 31.6
+// 30.6
 
 else if ({pat_gender} == 0 && {pat_GA} == 216 && {pat_bweight} < 1268) {
     "p<3";
@@ -1839,7 +1826,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 228 && {pat_bweight}>= 1535 && {pat_bw
 else if ({pat_gender} == 0 && {pat_GA} == 228 && {pat_bweight}>= 1606 && {pat_bweight} <1707){
     "p5-p10";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 228 && {pat_bweight}>= 1707 && {pat_bweight} <20212){
+else if ({pat_gender} == 0 && {pat_GA} == 228 && {pat_bweight}>= 1707 && {pat_bweight} <2012){
     "p10-p50";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 228 && {pat_bweight}>= 2012 && {pat_bweight} <2343){
@@ -2262,28 +2249,28 @@ else if ({pat_gender} == 0 && {pat_GA} == 243 && {pat_bweight}>= 3163){
 
 // 34.6
 
-else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight} < 1805) {
+else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight} < 1931) {
     "p<3";
   }
-else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 1805 && {pat_bweight} <1884){
+else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 1931 && {pat_bweight} <2014){
     "p3-p5";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 1884 && {pat_bweight} <1998){
+else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 2014 && {pat_bweight} <2134){
     "p5-p10";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 1998 && {pat_bweight} <2361){
+else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 2134 && {pat_bweight} <2523){
     "p10-p50";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 2361 && {pat_bweight} <2757){
+else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 2523 && {pat_bweight} <2948){
     "p50-p90";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 2757 && {pat_bweight} <2897){
+else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 2948 && {pat_bweight} <3096){
     "p90-p95";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 2897 && {pat_bweight} <3000){
+else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 3096 && {pat_bweight} <3203){
     "p95-p97";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 3000){
+else if ({pat_gender} == 0 && {pat_GA} == 239 && {pat_bweight}>= 3203){
             "p>97";
 }
 
@@ -2376,7 +2363,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 248 && {pat_bweight} < 2031) {
 else if ({pat_gender} == 0 && {pat_GA} == 248 && {pat_bweight}>= 2031 && {pat_bweight} <2116){
     "p3-p5";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 248 && {pat_bweight}>= 2216 && {pat_bweight} <2241){
+else if ({pat_gender} == 0 && {pat_GA} == 248 && {pat_bweight}>= 2116 && {pat_bweight} <2241){
     "p5-p10";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 248 && {pat_bweight}>= 2241 && {pat_bweight} <2651){
@@ -2706,7 +2693,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 260 && {pat_bweight}>= 2420 && {pat_bw
 else if ({pat_gender} == 0 && {pat_GA} == 260 && {pat_bweight}>= 2559 && {pat_bweight} <3033){
     "p10-p50";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 260 && {pat_bweight}>= 3303 && {pat_bweight} <3542){
+else if ({pat_gender} == 0 && {pat_GA} == 260 && {pat_bweight}>= 3033 && {pat_bweight} <3542){
     "p50-p90";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 260 && {pat_bweight}>= 3542 && {pat_bweight} <3707){
@@ -3279,7 +3266,7 @@ else if ({pat_gender} == 0 && {pat_GA} == 281 && {pat_bweight}>= 3632 && {pat_bw
 else if ({pat_gender} == 0 && {pat_GA} == 281 && {pat_bweight}>= 4195 && {pat_bweight} <4367){
     "p90-p95";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 281 && {pat_bweight}>= 44367 && {pat_bweight} <4483){
+else if ({pat_gender} == 0 && {pat_GA} == 281 && {pat_bweight}>= 4367 && {pat_bweight} <4483){
     "p95-p97";
 }
 else if ({pat_gender} == 0 && {pat_GA} == 281 && {pat_bweight}>= 4483){
@@ -3441,10 +3428,10 @@ else if ({pat_gender} == 0 && {pat_GA} == 287 && {pat_bweight}>= 3762 && {pat_bw
 else if ({pat_gender} == 0 && {pat_GA} == 287 && {pat_bweight}>= 4342 && {pat_bweight} <4517){
     "p90-p95";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 287 && {pat_bweight}>= 4517 && {pat_bweight} <4653){
+else if ({pat_gender} == 0 && {pat_GA} == 287 && {pat_bweight}>= 4517 && {pat_bweight} <4635){
     "p95-p97";
 }
-else if ({pat_gender} == 0 && {pat_GA} == 287 && {pat_bweight}>= 4653){
+else if ({pat_gender} == 0 && {pat_GA} == 287 && {pat_bweight}>= 4635){
             "p>97";
 }
 
@@ -3818,7 +3805,7 @@ else if ({pat_gender} == 1 && {pat_GA} == 167 && {pat_bweight}>= 512 && {pat_bwe
 else if ({pat_gender} == 1 && {pat_GA} == 167 && {pat_bweight}>= 615 && {pat_bweight} <721){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 167 && {pat_bweight}>= 721 && {pat_bweight} <769){
+else if ({pat_gender} == 1 && {pat_GA} == 167 && {pat_bweight}>= 721 && {pat_bweight} <760){
     "p90-p95";
 }
 else if ({pat_gender} == 1 && {pat_GA} == 167 && {pat_bweight}>= 760 && {pat_bweight} <790){
@@ -4611,2648 +4598,2653 @@ else if ({pat_gender} == 1 && {pat_GA} == 196 && {pat_bweight}>= 1448){
             "p>97";
 }
 
-// 28.1...
+// 28.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight} < 920) {
+else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight} < 870) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 920 && {pat_bweight} <968){
+else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 870 && {pat_bweight} <916){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 968 && {pat_bweight} <1034){
+else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 916 && {pat_bweight} <979){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 1034 && {pat_bweight} <1223){
+else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 979 && {pat_bweight} <1161){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 1223 && {pat_bweight} <1416){
+else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 1161 && {pat_bweight} <1351){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 1416 && {pat_bweight} <1485){
+else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 1351 && {pat_bweight} <1422){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 1485 && {pat_bweight} <1536){
+else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 1422 && {pat_bweight} <1475){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 1536){
+else if ({pat_gender} == 1 && {pat_GA} == 197 && {pat_bweight}>= 1475){
             "p>97";
 }
 
 // 28.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight} < 937) {
+else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight} < 886) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 937 && {pat_bweight} <986){
+else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 886 && {pat_bweight} <933){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 986 && {pat_bweight} <1052){
+else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 933 && {pat_bweight} <997){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 1052 && {pat_bweight} <1245){
+else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 997 && {pat_bweight} <1182){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 1245 && {pat_bweight} <1442){
+else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 1182 && {pat_bweight} <1376){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 1442 && {pat_bweight} <1512){
+else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 1376 && {pat_bweight} <1448){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 1512 && {pat_bweight} <1564){
+else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 1448 && {pat_bweight} <1502){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 1564){
+else if ({pat_gender} == 1 && {pat_GA} == 198 && {pat_bweight}>= 1502){
             "p>97";
 }
 
 // 28.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight} < 953) {
+else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight} < 903) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 953 && {pat_bweight} <1003){
+else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 903 && {pat_bweight} <950){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1003 && {pat_bweight} <1071){
+else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 950 && {pat_bweight} <1015){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1071 && {pat_bweight} <1267){
+else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1015 && {pat_bweight} <1203){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1267 && {pat_bweight} <1467){
+else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1203 && {pat_bweight} <1401){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1467 && {pat_bweight} <1539){
+else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1401 && {pat_bweight} <1474){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1539 && {pat_bweight} <1592){
+else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1474 && {pat_bweight} <1530){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1592){
+else if ({pat_gender} == 1 && {pat_GA} == 199 && {pat_bweight}>= 1530){
             "p>97";
 }
 
 // 28.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight} < 970) {
+else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight} < 919) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 970 && {pat_bweight} <1021){
+else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 919 && {pat_bweight} <967){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1021 && {pat_bweight} <1090){
+else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 967 && {pat_bweight} <1033){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1090 && {pat_bweight} <1289){
+else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1033 && {pat_bweight} <1225){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1289 && {pat_bweight} <1493){
+else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1225 && {pat_bweight} <1426){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1493 && {pat_bweight} <1566){
+else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1426 && {pat_bweight} <1501){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1566 && {pat_bweight} <1621){
+else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1501 && {pat_bweight} <1558){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1621){
+else if ({pat_gender} == 1 && {pat_GA} == 200 && {pat_bweight}>= 1558){
             "p>97";
 }
 
 // 28.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight} < 987) {
+else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight} < 935) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 987 && {pat_bweight} <1039){
+else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 935 && {pat_bweight} <984){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1039 && {pat_bweight} <1109){
+else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 984 && {pat_bweight} <1052){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1109 && {pat_bweight} <1311){
+else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1052 && {pat_bweight} <1246){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1311 && {pat_bweight} <1519){
+else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1246 && {pat_bweight} <1452){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1519 && {pat_bweight} <1594){
+else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1452 && {pat_bweight} <1528){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1594 && {pat_bweight} <1649){
+else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1528 && {pat_bweight} <1585){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1649){
+else if ({pat_gender} == 1 && {pat_GA} == 201 && {pat_bweight}>= 1585){
             "p>97";
 }
 
 // 28.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight} < 1005) {
+else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight} < 952) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1005 && {pat_bweight} <1057){
+else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 952 && {pat_bweight} <1002){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1057 && {pat_bweight} <1128){
+else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1002 && {pat_bweight} <1070){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1128 && {pat_bweight} <1334){
+else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1070 && {pat_bweight} <1268){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1334 && {pat_bweight} <1545){
+else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1268 && {pat_bweight} <1477){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1545 && {pat_bweight} <1622){
+else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1477 && {pat_bweight} <1555){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1622 && {pat_bweight} <1679){
+else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1555 && {pat_bweight} <1614){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1679){
+else if ({pat_gender} == 1 && {pat_GA} == 202 && {pat_bweight}>= 1614){
             "p>97";
 }
 
 // 29 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight} < 1022) {
+else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight} < 968) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1022 && {pat_bweight} <1075){
+else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 968 && {pat_bweight} <1019){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1075 && {pat_bweight} <1147){
+else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1019 && {pat_bweight} <1088){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1147 && {pat_bweight} <1356){
+else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1088 && {pat_bweight} <1290){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1356 && {pat_bweight} <1572){
+else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1290 && {pat_bweight} <1503){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1572 && {pat_bweight} <1650){
+else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1503 && {pat_bweight} <1582){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1650 && {pat_bweight} <1709){
+else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1582 && {pat_bweight} <1642){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1709){
+else if ({pat_gender} == 1 && {pat_GA} == 203 && {pat_bweight}>= 1642){
             "p>97";
 }
 
 // 29.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight} < 1040) {
+else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight} < 985) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1022 && {pat_bweight} <1075){
+else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 985 && {pat_bweight} <1036){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1075 && {pat_bweight} <1147){
+else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1036 && {pat_bweight} <1107){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1147 && {pat_bweight} <1356){
+else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1107 && {pat_bweight} <1312){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1356 && {pat_bweight} <1572){
+else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1312 && {pat_bweight} <1529){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1572 && {pat_bweight} <1650){
+else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1529 && {pat_bweight} <1610){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1650 && {pat_bweight} <1709){
+else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1610 && {pat_bweight} <1671){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1709){
+else if ({pat_gender} == 1 && {pat_GA} == 204 && {pat_bweight}>= 1671){
             "p>97";
 }
 
 // 29.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight} < 1058) {
+else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight} < 1001) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1058 && {pat_bweight} <1113){
+else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1001 && {pat_bweight} <1054){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1113 && {pat_bweight} <1187){
+else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1054 && {pat_bweight} <1125){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1187 && {pat_bweight} <1403){
+else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1125 && {pat_bweight} <1334){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1403 && {pat_bweight} <1627){
+else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1334 && {pat_bweight} <1555){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1627 && {pat_bweight} <1708){
+else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1555 && {pat_bweight} <1637){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1708 && {pat_bweight} <1769){
+else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1637 && {pat_bweight} <1700){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1769){
+else if ({pat_gender} == 1 && {pat_GA} == 205 && {pat_bweight}>= 1700){
             "p>97";
 }
 
 // 29.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight} < 1076) {
+else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight} < 1018) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1076 && {pat_bweight} <1132){
+else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1018 && {pat_bweight} <1071){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1132 && {pat_bweight} <1207){
+else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1071 && {pat_bweight} <1144){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1207 && {pat_bweight} <1426){
+else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1144 && {pat_bweight} <1357){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1426 && {pat_bweight} <1654){
+else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1357 && {pat_bweight} <1582){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1654 && {pat_bweight} <1737){
+else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1582 && {pat_bweight} <1666){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1737 && {pat_bweight} <1799){
+else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1666 && {pat_bweight} <1729){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1799){
+else if ({pat_gender} == 1 && {pat_GA} == 206 && {pat_bweight}>= 1729){
             "p>97";
 }
 
 // 29.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight} < 1095) {
+else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight} < 1035) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1095 && {pat_bweight} <1151){
+else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1035 && {pat_bweight} <1089){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1151 && {pat_bweight} <1227){
+else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1089 && {pat_bweight} <1163){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1227 && {pat_bweight} <1450){
+else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1163 && {pat_bweight} <1380){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1450 && {pat_bweight} <1682){
+else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1380 && {pat_bweight} <1609){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1682 && {pat_bweight} <1766){
+else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1609 && {pat_bweight} <1694){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1766 && {pat_bweight} <1830){
+else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1694 && {pat_bweight} <1759){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1830){
+else if ({pat_gender} == 1 && {pat_GA} == 207 && {pat_bweight}>= 1759){
             "p>97";
 }
 
 // 29.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight} < 1113) {
+else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight} < 1052) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1113 && {pat_bweight} <1170){
+else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1052 && {pat_bweight} <1107){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1170 && {pat_bweight} <1247){
+else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1107 && {pat_bweight} <1182){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1247 && {pat_bweight} <1473){
+else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1182 && {pat_bweight} <1403){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1473 && {pat_bweight} <1709){
+else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1403 && {pat_bweight} <1636){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1709 && {pat_bweight} <1795){
+else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1636 && {pat_bweight} <1723){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1795 && {pat_bweight} <1860){
+else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1723 && {pat_bweight} <1789){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1860){
+else if ({pat_gender} == 1 && {pat_GA} == 208 && {pat_bweight}>= 1789){
             "p>97";
 }
 
 // 29.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight} < 1132) {
+else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight} < 1069) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1132 && {pat_bweight} <1189){
+else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1069 && {pat_bweight} <1125){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1189 && {pat_bweight} <1268){
+else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1125 && {pat_bweight} <1202){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1268 && {pat_bweight} <1497){
+else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1202 && {pat_bweight} <1426){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1497 && {pat_bweight} <1737){
+else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1426 && {pat_bweight} <1664){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1737 && {pat_bweight} <1825){
+else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1664 && {pat_bweight} <1752){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1825 && {pat_bweight} <1891){
+else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1752 && {pat_bweight} <1819){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1891){
+else if ({pat_gender} == 1 && {pat_GA} == 209 && {pat_bweight}>= 1819){
             "p>97";
 }
 
 // 30 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight} < 1150) {
+else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight} < 1087) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1150 && {pat_bweight} <1208){
+else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1087 && {pat_bweight} <1144){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1208 && {pat_bweight} <1288){
+else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1144 && {pat_bweight} <1221){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1288 && {pat_bweight} <1521){
+else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1221 && {pat_bweight} <1449){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1521 && {pat_bweight} <1765){
+else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1449 && {pat_bweight} <1692){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1765 && {pat_bweight} <1854){
+else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1692 && {pat_bweight} <1782){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1854 && {pat_bweight} <1922){
+else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1782 && {pat_bweight} <1850){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1922){
+else if ({pat_gender} == 1 && {pat_GA} == 210 && {pat_bweight}>= 1850){
             "p>97";
 }
 
-// 31.1
+// 30.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight} < 1169) {
+else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight} < 1105) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1169 && {pat_bweight} <1228){
+else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1105 && {pat_bweight} <1162){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1228 && {pat_bweight} <1309){
+else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1162 && {pat_bweight} <1241){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1309 && {pat_bweight} <1545){
+else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1241 && {pat_bweight} <1473){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1545 && {pat_bweight} <1793){
+else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1473 && {pat_bweight} <1720){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1793 && {pat_bweight} <1884){
+else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1720 && {pat_bweight} <1812){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1884 && {pat_bweight} <1953){
+else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1812 && {pat_bweight} <1881){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1953){
+else if ({pat_gender} == 1 && {pat_GA} == 211 && {pat_bweight}>= 1881){
             "p>97";
 }
 
-// 31.2
+// 30.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight} < 1188) {
+else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight} < 1123) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1188 && {pat_bweight} <1248){
+else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1123 && {pat_bweight} <1181){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1248 && {pat_bweight} <1330){
+else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1181 && {pat_bweight} <1262){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1330 && {pat_bweight} <1569){
+else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1262 && {pat_bweight} <1498){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1569 && {pat_bweight} <1822){
+else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1498 && {pat_bweight} <1749){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1822 && {pat_bweight} <1914){
+else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1749 && {pat_bweight} <1842){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1914 && {pat_bweight} <1984){
+else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1842 && {pat_bweight} <1913){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1984){
+else if ({pat_gender} == 1 && {pat_GA} == 212 && {pat_bweight}>= 1913){
             "p>97";
 }
 
-// 31.3
+// 30.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight} < 1208) {
+else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight} < 1142) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1208 && {pat_bweight} <1268){
+else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1142 && {pat_bweight} <1201){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1268 && {pat_bweight} <1351){
+else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1201 && {pat_bweight} <1282){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1351 && {pat_bweight} <1594){
+else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1282 && {pat_bweight} <1522){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1594 && {pat_bweight} <1851){
+else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1522 && {pat_bweight} <1778){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1851 && {pat_bweight} <1945){
+else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1778 && {pat_bweight} <1873){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1945 && {pat_bweight} <2016){
+else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1873 && {pat_bweight} <1945){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 2016){
+else if ({pat_gender} == 1 && {pat_GA} == 213 && {pat_bweight}>= 1945){
             "p>97";
 }
 
-// 31.4
+// 30.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight} < 1227) {
+else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight} < 1161) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1227 && {pat_bweight} <1289){
+else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1161 && {pat_bweight} <1221){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1289 && {pat_bweight} <1373){
+else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1221 && {pat_bweight} <1303){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1373 && {pat_bweight} <1619){
+else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1303 && {pat_bweight} <1547){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1619 && {pat_bweight} <1880){
+else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1547 && {pat_bweight} <1808){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1880 && {pat_bweight} <1976){
+else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1808 && {pat_bweight} <1905){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1976 && {pat_bweight} <2049){
+else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1905 && {pat_bweight} <1978){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 2049){
+else if ({pat_gender} == 1 && {pat_GA} == 214 && {pat_bweight}>= 1978){
             "p>97";
 }
 
-// 31.5
+// 30.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight} < 1247) {
+else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight} < 1180) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1247 && {pat_bweight} <1309){
+else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1180 && {pat_bweight} <1241){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1309 && {pat_bweight} <1395){
+else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1241 && {pat_bweight} <1325){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1395 && {pat_bweight} <1645){
+else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1325 && {pat_bweight} <1573){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1645 && {pat_bweight} <1910){
+else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1573 && {pat_bweight} <1838){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1910 && {pat_bweight} <2008){
+else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1838 && {pat_bweight} <1936){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 2008 && {pat_bweight} <2082){
+else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 1936 && {pat_bweight} <2011){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 2082){
+else if ({pat_gender} == 1 && {pat_GA} == 215 && {pat_bweight}>= 2011){
             "p>97";
 }
 
-// 31.6
+// 30.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight} < 1268) {
+else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight} < 1200) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1268 && {pat_bweight} <1330){
+else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1200 && {pat_bweight} <1261){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1330 && {pat_bweight} <1417){
+else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1261 && {pat_bweight} <1346){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1417 && {pat_bweight} <1671){
+else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1346 && {pat_bweight} <1599){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1671 && {pat_bweight} <1941){
+else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1599 && {pat_bweight} <1869){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1941 && {pat_bweight} <2040){
+else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1869 && {pat_bweight} <1969){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 2040 && {pat_bweight} <2115){
+else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 1969 && {pat_bweight} <2044){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 2115){
+else if ({pat_gender} == 1 && {pat_GA} == 216 && {pat_bweight}>= 2044){
             "p>97";
 }
 
 // 31 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight} < 1288) {
+else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight} < 1220) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 1288 && {pat_bweight} <1352){
+else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 1220 && {pat_bweight} <1282){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 1352 && {pat_bweight} <1439){
+else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 1282 && {pat_bweight} <1368){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 1439 && {pat_bweight} <1697){
+else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 1368 && {pat_bweight} <1625){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 1697 && {pat_bweight} <1972){
+else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 1625 && {pat_bweight} <1900){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 1972 && {pat_bweight} <2073){
+else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 1900 && {pat_bweight} <2001){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 2073 && {pat_bweight} <2149){
+else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 2001 && {pat_bweight} <2078){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 2149){
+else if ({pat_gender} == 1 && {pat_GA} == 217 && {pat_bweight}>= 2078){
             "p>97";
 }
 
 // 31.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight} < 1310) {
+else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight} < 1240) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 1310 && {pat_bweight} <1374){
+else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 1240 && {pat_bweight} <1303){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 1374 && {pat_bweight} <1462){
+else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 1303 && {pat_bweight} <1391){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 1462 && {pat_bweight} <1724){
+else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 1391 && {pat_bweight} <1652){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 1724 && {pat_bweight} <2003){
+else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 1652 && {pat_bweight} <1931){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 2003 && {pat_bweight} <2106){
+else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 1931 && {pat_bweight} <2035){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 2106 && {pat_bweight} <2184){
+else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 2035 && {pat_bweight} <2112){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 2184){
+else if ({pat_gender} == 1 && {pat_GA} == 218 && {pat_bweight}>= 2112){
             "p>97";
 }
 
 // 31.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight} < 1331) {
+else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight} < 1261) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 1331 && {pat_bweight} <1396){
+else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 1261 && {pat_bweight} <1325){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 1396 && {pat_bweight} <1486){
+else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 1325 && {pat_bweight} <1414){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 1486 && {pat_bweight} <1751){
+else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 1414 && {pat_bweight} <1678){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 1751 && {pat_bweight} <2035){
+else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 1678 && {pat_bweight} <1963){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 2035 && {pat_bweight} <2140){
+else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 1963 && {pat_bweight} <2068){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 2140 && {pat_bweight} <2219){
+else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 2068 && {pat_bweight} <2147){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 2219){
+else if ({pat_gender} == 1 && {pat_GA} == 219 && {pat_bweight}>= 2147){
             "p>97";
 }
 
 // 31.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight} < 1352) {
+else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight} < 1282) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 1352 && {pat_bweight} <1418){
+else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 1282 && {pat_bweight} <1347){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 1418 && {pat_bweight} <1509){
+else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 1347 && {pat_bweight} <1436){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 1509 && {pat_bweight} <1779){
+else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 1436 && {pat_bweight} <1706){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 1779 && {pat_bweight} <2068){
+else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 1706 && {pat_bweight} <1995){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 2068 && {pat_bweight} <2174){
+else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 1995 && {pat_bweight} <2102){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 2174 && {pat_bweight} <2254){
+else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 2102 && {pat_bweight} <2182){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 2254){
+else if ({pat_gender} == 1 && {pat_GA} == 220 && {pat_bweight}>= 2182){
             "p>97";
 }
 
 //31.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight} < 1374) {
+else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight} < 1303) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 1374 && {pat_bweight} <1441){
+else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 1303 && {pat_bweight} <1369){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 1441 && {pat_bweight} <1533){
+else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 1369 && {pat_bweight} <1460){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 1533 && {pat_bweight} <1807){
+else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 1460 && {pat_bweight} <1733){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 1807 && {pat_bweight} <2101){
+else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 1733 && {pat_bweight} <2028){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 2101 && {pat_bweight} <2209){
+else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 2028 && {pat_bweight} <2136){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 2209 && {pat_bweight} <2290){
+else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 2136 && {pat_bweight} <2217){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 2290){
+else if ({pat_gender} == 1 && {pat_GA} == 221 && {pat_bweight}>= 2217){
             "p>97";
 }
 
 //31.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight} < 1397) {
+else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight} < 1325) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 1397 && {pat_bweight} <1464){
+else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 1325 && {pat_bweight} <1391){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 1464 && {pat_bweight} <1557){
+else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 1391 && {pat_bweight} <1483){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 1557 && {pat_bweight} <1835){
+else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 1483 && {pat_bweight} <1761){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 1835 && {pat_bweight} <2134){
+else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 1761 && {pat_bweight} <2060){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 2134 && {pat_bweight} <2244){
+else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 2060 && {pat_bweight} <2170){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 2244 && {pat_bweight} <2327){
+else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 2170 && {pat_bweight} <2252){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 2327){
+else if ({pat_gender} == 1 && {pat_GA} == 222 && {pat_bweight}>= 2252){
             "p>97";
 }
 
 //31.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight} < 1419) {
+else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight} < 1346) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 1419 && {pat_bweight} <1487){
+else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 1346 && {pat_bweight} <1413){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 1487 && {pat_bweight} <1581){
+else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 1413 && {pat_bweight} <1506){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 1581 && {pat_bweight} <1864){
+else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 1506 && {pat_bweight} <1789){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 1864 && {pat_bweight} <2168){
+else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 1789 && {pat_bweight} <2093){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 2168 && {pat_bweight} <2279){
+else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 2093 && {pat_bweight} <2205){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 2279 && {pat_bweight} <2364){
+else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 2205 && {pat_bweight} <2288){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 2364){
+else if ({pat_gender} == 1 && {pat_GA} == 223 && {pat_bweight}>= 2288){
             "p>97";
 }
 
 // 32 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight} < 1442) {
+else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight} < 1368) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 1442 && {pat_bweight} <1510){
+else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 1368 && {pat_bweight} <1436){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 1510 && {pat_bweight} <1606){
+else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 1436 && {pat_bweight} <1530){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 1606 && {pat_bweight} <1893){
+else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 1530 && {pat_bweight} <1817){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 1893 && {pat_bweight} <2202){
+else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 1817 && {pat_bweight} <2126){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 2202 && {pat_bweight} <2315){
+else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 2126 && {pat_bweight} <2239){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 2315 && {pat_bweight} <2401){
+else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 2239 && {pat_bweight} <2324){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 2401){
+else if ({pat_gender} == 1 && {pat_GA} == 224 && {pat_bweight}>= 2324){
             "p>97";
 }
 
 // 32.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight} < 1465) {
+else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight} < 1390) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 1465 && {pat_bweight} <1534){
+else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 1390 && {pat_bweight} <1458){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 1534 && {pat_bweight} <1631){
+else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 1458 && {pat_bweight} <1554){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 1631 && {pat_bweight} <1922){
+else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 1554 && {pat_bweight} <1845){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 1922 && {pat_bweight} <2236){
+else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 1845 && {pat_bweight} <2160){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 2236 && {pat_bweight} <2352){
+else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 2160 && {pat_bweight} <2274){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 2352 && {pat_bweight} <2438){
+else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 2274 && {pat_bweight} <2360){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 2438){
+else if ({pat_gender} == 1 && {pat_GA} == 225 && {pat_bweight}>= 2360){
             "p>97";
 }
 
 // 32.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight} < 1488) {
+else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight} < 1413) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 1488 && {pat_bweight} <1558){
+else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 1413 && {pat_bweight} <1481){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 1558 && {pat_bweight} <1656){
+else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 1481 && {pat_bweight} <1578){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 1656 && {pat_bweight} <1952){
+else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 1578 && {pat_bweight} <1873){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 1952 && {pat_bweight} <2271){
+else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 1873 && {pat_bweight} <2193){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 2271 && {pat_bweight} <2389){
+else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 2193 && {pat_bweight} <2310){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 2389 && {pat_bweight} <2477){
+else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 2310 && {pat_bweight} <2396){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 2477){
+else if ({pat_gender} == 1 && {pat_GA} == 226 && {pat_bweight}>= 2396){
             "p>97";
 }
 
 // 32.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight} < 1511) {
+else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight} < 1435) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 1511 && {pat_bweight} <1582){
+else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 1435 && {pat_bweight} <1504){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 1582 && {pat_bweight} <1681){
+else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 1504 && {pat_bweight} <1602){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 1681 && {pat_bweight} <1982){
+else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 1602 && {pat_bweight} <1902){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 1982 && {pat_bweight} <2307){
+else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 1902 && {pat_bweight} <2227){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 2307 && {pat_bweight} <2426){
+else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 2227 && {pat_bweight} <2345){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 2426 && {pat_bweight} <2515){
+else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 2345 && {pat_bweight} <2433){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 2515){
+else if ({pat_gender} == 1 && {pat_GA} == 227 && {pat_bweight}>= 2433){
             "p>97";
 }
 
 // 32.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight} < 1535) {
+else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight} < 1457) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 1535 && {pat_bweight} <1606){
+else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 1457 && {pat_bweight} <1528){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 1606 && {pat_bweight} <1707){
+else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 1528 && {pat_bweight} <1627){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 1707 && {pat_bweight} <20212){
+else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 1627 && {pat_bweight} <1931){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 2012 && {pat_bweight} <2343){
+else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 1931 && {pat_bweight} <2261){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 2343 && {pat_bweight} <2464){
+else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 2261 && {pat_bweight} <2381){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 2464 && {pat_bweight} <2554){
+else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 2381 && {pat_bweight} <2470){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 2554){
+else if ({pat_gender} == 1 && {pat_GA} == 228 && {pat_bweight}>= 2470){
             "p>97";
 }
 
 // 32.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight} < 1559) {
+else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight} < 1480) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 1559 && {pat_bweight} <1631){
+else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 1480 && {pat_bweight} <1551){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 1631 && {pat_bweight} <1733){
+else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 1551 && {pat_bweight} <1651){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 1733 && {pat_bweight} <2043){
+else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 1651 && {pat_bweight} <1960){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 2043 && {pat_bweight} <2379){
+else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 1960 && {pat_bweight} <2295){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 2379 && {pat_bweight} <2502){
+else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 2295 && {pat_bweight} <2417){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 2502 && {pat_bweight} <2594){
+else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 2417 && {pat_bweight} <2507){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 2594){
+else if ({pat_gender} == 1 && {pat_GA} == 229 && {pat_bweight}>= 2507){
             "p>97";
 }
 
 //32.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight} < 1583) {
+else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight} < 1503) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 1583 && {pat_bweight} <1656){
+else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 1503 && {pat_bweight} <1574){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 1656 && {pat_bweight} <1759){
+else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 1574 && {pat_bweight} <1676){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 1759 && {pat_bweight} <2074){
+else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 1676 && {pat_bweight} <1989){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 2074 && {pat_bweight} <2416){
+else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 1989 && {pat_bweight} <2330){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 2416 && {pat_bweight} <2541){
+else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 2330 && {pat_bweight} <2453){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 2541 && {pat_bweight} <2634){
+else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 2453 && {pat_bweight} <2544){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 2634){
+else if ({pat_gender} == 1 && {pat_GA} == 230 && {pat_bweight}>= 2544){
             "p>97";
 }
 
 // 33 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight} < 1607) {
+else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight} < 1526) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 1607 && {pat_bweight} <1681){
+else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 1526 && {pat_bweight} <1598){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 1681 && {pat_bweight} <1785){
+else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 1598 && {pat_bweight} <1700){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 1785 && {pat_bweight} <2105){
+else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 1700 && {pat_bweight} <2019){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 2105 && {pat_bweight} <2453){
+else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 2019 && {pat_bweight} <2365){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 2453 && {pat_bweight} <2580){
+else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 2365 && {pat_bweight} <2489){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 2580 && {pat_bweight} <2674){
+else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 2489 && {pat_bweight} <2582){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 2674){
+else if ({pat_gender} == 1 && {pat_GA} == 231 && {pat_bweight}>= 2582){
             "p>97";
 }
 
 // 33.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight} < 1632) {
+else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight} < 1549) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 1632 && {pat_bweight} <1706){
+else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 1549 && {pat_bweight} <1622){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 1706 && {pat_bweight} <1811){
+else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 1622 && {pat_bweight} <1725){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 1811 && {pat_bweight} <2137){
+else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 1725 && {pat_bweight} <2048){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 2137 && {pat_bweight} <2491){
+else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 2048 && {pat_bweight} <2400){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 2491 && {pat_bweight} <2619){
+else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 2400 && {pat_bweight} <2526){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 2619 && {pat_bweight} <2714){
+else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 2526 && {pat_bweight} <2620){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 2714){
+else if ({pat_gender} == 1 && {pat_GA} == 232 && {pat_bweight}>= 2620){
             "p>97";
 }
 
 // 33.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight} < 1656) {
+else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight} < 1572) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 1656 && {pat_bweight} <1731){
+else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 1572 && {pat_bweight} <1646){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 1731 && {pat_bweight} <1838){
+else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 1646 && {pat_bweight} <1751){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 1838 && {pat_bweight} <2168){
+else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 1751 && {pat_bweight} <2078){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 2168 && {pat_bweight} <2528){
+else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 2078 && {pat_bweight} <2435){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 2528 && {pat_bweight} <2659){
+else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 2435 && {pat_bweight} <2563){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 2659 && {pat_bweight} <2755){
+else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 2563 && {pat_bweight} <2658){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 2755){
+else if ({pat_gender} == 1 && {pat_GA} == 233 && {pat_bweight}>= 2658){
             "p>97";
 }
 
 // 33.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight} < 1681) {
+else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight} < 1596) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 1681 && {pat_bweight} <1757){
+else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 1596 && {pat_bweight} <1670){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 1757 && {pat_bweight} <1864){
+else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 1670 && {pat_bweight} <1776){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 1864 && {pat_bweight} <2200){
+else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 1776 && {pat_bweight} <2109){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 2200 && {pat_bweight} <2566){
+else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 2109 && {pat_bweight} <2471){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 2566 && {pat_bweight} <2698){
+else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 2471 && {pat_bweight} <2601){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 2698 && {pat_bweight} <2796){
+else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 2601 && {pat_bweight} <2697){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 2796){
+else if ({pat_gender} == 1 && {pat_GA} == 234 && {pat_bweight}>= 2697){
             "p>97";
 }
 
 // 33.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight} < 1705) {
+else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight} < 1619) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 1705 && {pat_bweight} <1782){
+else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 1619 && {pat_bweight} <1695){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 1782 && {pat_bweight} <1891){
+else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 1695 && {pat_bweight} <1802){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 1891 && {pat_bweight} <2232){
+else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 1802 && {pat_bweight} <2139){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 2232 && {pat_bweight} <2604){
+else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 2139 && {pat_bweight} <2507){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 2604 && {pat_bweight} <2738){
+else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 2507 && {pat_bweight} <2639){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 2738 && {pat_bweight} <2837){
+else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 2639 && {pat_bweight} <2736){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 2837){
+else if ({pat_gender} == 1 && {pat_GA} == 235 && {pat_bweight}>= 2736){
             "p>97";
 }
 
 // 33.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight} < 1730) {
+else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight} < 1643) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 1730 && {pat_bweight} <1807){
+else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 1643 && {pat_bweight} <1719){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 1807 && {pat_bweight} <1918){
+else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 1719 && {pat_bweight} <1828){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 1918 && {pat_bweight} <2264){
+else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 1828 && {pat_bweight} <2170){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 2264 && {pat_bweight} <2642){
+else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 2170 && {pat_bweight} <2544){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 2642 && {pat_bweight} <2778){
+else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 2544 && {pat_bweight} <2678){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 2778 && {pat_bweight} <2878){
+else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 2678 && {pat_bweight} <2776){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 2878){
+else if ({pat_gender} == 1 && {pat_GA} == 236 && {pat_bweight}>= 2776){
             "p>97";
 }
 
 // 33.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight} < 1755) {
+else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight} < 1668) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 1755 && {pat_bweight} <1833){
+else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 1668 && {pat_bweight} <1744){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 1833 && {pat_bweight} <1944){
+else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 1744 && {pat_bweight} <1854){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 1944 && {pat_bweight} <2296){
+else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 1854 && {pat_bweight} <2202){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 2296 && {pat_bweight} <2680){
+else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 2202 && {pat_bweight} <2581){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 2680 && {pat_bweight} <2817){
+else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 2581 && {pat_bweight} <2717){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 2817 && {pat_bweight} <2918){
+else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 2717 && {pat_bweight} <2816){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 2918){
+else if ({pat_gender} == 1 && {pat_GA} == 237 && {pat_bweight}>= 2816){
             "p>97";
 }
 
 // 34 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight} < 1780) {
+else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight} < 1692) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 1780 && {pat_bweight} <1858){
+else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 1692 && {pat_bweight} <1770){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 1858 && {pat_bweight} <1971){
+else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 1770 && {pat_bweight} <1881){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 1971 && {pat_bweight} <2328){
+else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 1881 && {pat_bweight} <2233){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 2328 && {pat_bweight} <2719){
+else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 2233 && {pat_bweight} <2619){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 2719 && {pat_bweight} <2857){
+else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 2619 && {pat_bweight} <2756){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 2857 && {pat_bweight} <2959){
+else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 2756 && {pat_bweight} <2857){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 2959){
+else if ({pat_gender} == 1 && {pat_GA} == 238 && {pat_bweight}>= 2857){
             "p>97";
 }
 
 // 34.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight} < 1805) {
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight} < 1717) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1805 && {pat_bweight} <1884){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1717 && {pat_bweight} <1795){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1884 && {pat_bweight} <1998){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1795 && {pat_bweight} <1907){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1998 && {pat_bweight} <2361){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1907 && {pat_bweight} <2265){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2361 && {pat_bweight} <2757){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2265 && {pat_bweight} <2657){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2757 && {pat_bweight} <2897){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2657 && {pat_bweight} <2796){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2897 && {pat_bweight} <3000){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2796 && {pat_bweight} <2898){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 3000){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2898){
             "p>97";
 }
 
 // 34.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight} < 1830) {
+else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight} < 1741) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 1830 && {pat_bweight} <1910){
+else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 1741 && {pat_bweight} <1821){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 1910 && {pat_bweight} <2025){
+else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 1821 && {pat_bweight} <1934){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 2025 && {pat_bweight} <2393){
+else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 1934 && {pat_bweight} <2297){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 2393 && {pat_bweight} <2795){
+else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 2297 && {pat_bweight} <2695){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 2795 && {pat_bweight} <2937){
+else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 2695 && {pat_bweight} <2835){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 2937 && {pat_bweight} <3041){
+else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 2835 && {pat_bweight} <2939){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 3041){
+else if ({pat_gender} == 1 && {pat_GA} == 240 && {pat_bweight}>= 2939){
             "p>97";
 }
 
 // 34.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight} < 1855) {
+else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight} < 1766) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 1855 && {pat_bweight} <1936){
+else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 1766 && {pat_bweight} <1846){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 1936 && {pat_bweight} <2052){
+else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 1846 && {pat_bweight} <1961){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 2052 && {pat_bweight} <2425){
+else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 1961 && {pat_bweight} <2329){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 2425 && {pat_bweight} <2833){
+else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 2329 && {pat_bweight} <2733){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 2833 && {pat_bweight} <2977){
+else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 2733 && {pat_bweight} <2875){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 2977 && {pat_bweight} <3082){
+else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 2875 && {pat_bweight} <2980){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 3082){
+else if ({pat_gender} == 1 && {pat_GA} == 241 && {pat_bweight}>= 2980){
             "p>97";
 }
 
 //34.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight} < 1880) {
+else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight} < 1791) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 1880 && {pat_bweight} <1962){
+else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 1791 && {pat_bweight} <1872){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 1962 && {pat_bweight} <2079){
+else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 1872 && {pat_bweight} <1988){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 2079 && {pat_bweight} <2458){
+else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 1988 && {pat_bweight} <2361){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 2458 && {pat_bweight} <2872){
+else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 2361 && {pat_bweight} <2771){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 2872 && {pat_bweight} <3017){
+else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 2771 && {pat_bweight} <2915){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 3017 && {pat_bweight} <3122){
+else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 2915 && {pat_bweight} <3021){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 3122){
+else if ({pat_gender} == 1 && {pat_GA} == 242 && {pat_bweight}>= 3021){
             "p>97";
 }
 
 //34.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight} < 1906) {
+else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight} < 1817) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 1906 && {pat_bweight} <1988){
+else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 1817 && {pat_bweight} <1898){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 1988 && {pat_bweight} <2107){
+else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 1898 && {pat_bweight} <2015){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 2107 && {pat_bweight} <2490){
+else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 2015 && {pat_bweight} <2394){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 2490 && {pat_bweight} <2910){
+else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 2394 && {pat_bweight} <2809){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 2910 && {pat_bweight} <3056){
+else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 2809 && {pat_bweight} <2955){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 3056 && {pat_bweight} <3163){
+else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 2955 && {pat_bweight} <3062){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 3163){
+else if ({pat_gender} == 1 && {pat_GA} == 243 && {pat_bweight}>= 3062){
             "p>97";
 }
 
 // 34.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight} < 1805) {
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight} < 1842) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1805 && {pat_bweight} <1884){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1842 && {pat_bweight} <1924){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1884 && {pat_bweight} <1998){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1924 && {pat_bweight} <2043){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 1998 && {pat_bweight} <2361){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2043 && {pat_bweight} <2426){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2361 && {pat_bweight} <2757){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2426 && {pat_bweight} <2847){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2757 && {pat_bweight} <2897){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2847 && {pat_bweight} <2995){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2897 && {pat_bweight} <3000){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 2995 && {pat_bweight} <3102){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 3000){
+else if ({pat_gender} == 1 && {pat_GA} == 239 && {pat_bweight}>= 3102){
             "p>97";
 }
 
-// 35 weeks (exact) 
+// 35 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight} < 1956) {
+else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight} < 1867) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 1956 && {pat_bweight} <2040){
+else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 1867 && {pat_bweight} <1950){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 2040 && {pat_bweight} <2161){
+else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 1950 && {pat_bweight} <2070){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 2161 && {pat_bweight} <2555){
+else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 2070 && {pat_bweight} <2458){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 2555 && {pat_bweight} <2986){
+else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 2458 && {pat_bweight} <2885){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 2986 && {pat_bweight} <3135){
+else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 2885 && {pat_bweight} <3034){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 3135 && {pat_bweight} <3242){
+else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 3034 && {pat_bweight} <3143){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 3242){
+else if ({pat_gender} == 1 && {pat_GA} == 245 && {pat_bweight}>= 3143){
             "p>97";
 }
 
 // 35.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight} < 1981) {
+else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight} < 1893) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 1981 && {pat_bweight} <2065){
+else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 1893 && {pat_bweight} <1976){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 2065 && {pat_bweight} <2188){
+else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 1976 && {pat_bweight} <2097){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 2188 && {pat_bweight} <2587){
+else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 2097 && {pat_bweight} <2490){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 2587 && {pat_bweight} <3023){
+else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 2490 && {pat_bweight} <2922){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 3023 && {pat_bweight} <3173){
+else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 2922 && {pat_bweight} <3073){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 3173 && {pat_bweight} <3282){
+else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 3073 && {pat_bweight} <3183){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 3282){
+else if ({pat_gender} == 1 && {pat_GA} == 246 && {pat_bweight}>= 3183){
             "p>97";
 }
 
 // 35.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight} < 2006) {
+else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight} < 1918) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 2006 && {pat_bweight} <2091){
+else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 1918 && {pat_bweight} <2002){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 2091 && {pat_bweight} <2215){
+else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 2002 && {pat_bweight} <2124){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 2215 && {pat_bweight} <2619){
+else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 2124 && {pat_bweight} <2522){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 2619 && {pat_bweight} <3060){
+else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 2522 && {pat_bweight} <2959){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 3060 && {pat_bweight} <3212){
+else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 2959 && {pat_bweight} <3112){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 3212 && {pat_bweight} <3321){
+else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 3112 && {pat_bweight} <3222){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 3321){
+else if ({pat_gender} == 1 && {pat_GA} == 247 && {pat_bweight}>= 3222){
             "p>97";
 }
 
 // 35.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight} < 2031) {
+else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight} < 1943) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 2031 && {pat_bweight} <2116){
+else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 1943 && {pat_bweight} <2028){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 2216 && {pat_bweight} <2241){
+else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 2028 && {pat_bweight} <2151){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 2241 && {pat_bweight} <2651){
+else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 2151 && {pat_bweight} <2553){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 2651 && {pat_bweight} <3097){
+else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 2553 && {pat_bweight} <2996){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 3097 && {pat_bweight} <3249){
+else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 2996 && {pat_bweight} <3150){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 3249 && {pat_bweight} <3359){
+else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 3150 && {pat_bweight} <3261){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 3359){
+else if ({pat_gender} == 1 && {pat_GA} == 248 && {pat_bweight}>= 3261){
             "p>97";
 }
 
 // 35.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight} < 2055) {
+else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight} < 1969) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 2055 && {pat_bweight} <2141){
+else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 1969 && {pat_bweight} <2053){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 2141 && {pat_bweight} <2267){
+else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 2053 && {pat_bweight} <2177){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 2267 && {pat_bweight} <2682){
+else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 2177 && {pat_bweight} <2584){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 2682 && {pat_bweight} <3133){
+else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 3584 && {pat_bweight} <3032){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 3133 && {pat_bweight} <3287){
+else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 3032 && {pat_bweight} <3187){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 3287 && {pat_bweight} <3397){
+else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 3187 && {pat_bweight} <3300){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 3397){
+else if ({pat_gender} == 1 && {pat_GA} == 249 && {pat_bweight}>= 3300){
             "p>97";
 }
 
 //35.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight} < 2078) {
+else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight} < 1994) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 2078 && {pat_bweight} <2165){
+else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 1994 && {pat_bweight} <2079){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 2165 && {pat_bweight} <2292){
+else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 2079 && {pat_bweight} <2204){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 2292 && {pat_bweight} <2712){
+else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 2204 && {pat_bweight} <2615){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 2712 && {pat_bweight} <3169){
+else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 2615 && {pat_bweight} <3068){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 3169 && {pat_bweight} <3324){
+else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 3068 && {pat_bweight} <3224){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 3324 && {pat_bweight} <3434){
+else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 3224 && {pat_bweight} <3337){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 3434){
+else if ({pat_gender} == 1 && {pat_GA} == 250 && {pat_bweight}>= 3337){
             "p>97";
 }
 
 //35.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight} < 2102) {
+else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight} < 2019) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 2102 && {pat_bweight} <2190){
+else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 2019 && {pat_bweight} <2104){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 2190 && {pat_bweight} <2318){
+else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 2104 && {pat_bweight} <2230){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 2318 && {pat_bweight} <2743){
+else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 2230 && {pat_bweight} <2646){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 2743 && {pat_bweight} <3205){
+else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 2646 && {pat_bweight} <3104){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 3205 && {pat_bweight} <3360){
+else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 3104 && {pat_bweight} <3261){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 3360 && {pat_bweight} <3471){
+else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 3261 && {pat_bweight} <3374){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 3471){
+else if ({pat_gender} == 1 && {pat_GA} == 251 && {pat_bweight}>= 3374){
             "p>97";
 }
 
 // 36 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight} < 2126) {
+else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight} < 2044) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 2126 && {pat_bweight} <2214){
+else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 2044 && {pat_bweight} <2130){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 2214 && {pat_bweight} <2344){
+else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 2130 && {pat_bweight} <2256){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 2344 && {pat_bweight} <2774){
+else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 2256 && {pat_bweight} <2676){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 2774 && {pat_bweight} <3241){
+else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 2676 && {pat_bweight} <3139){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 3241 && {pat_bweight} <3397){
+else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 3139 && {pat_bweight} <3297){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 3397 && {pat_bweight} <3508){
+else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 3297 && {pat_bweight} <3411){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 3508){
+else if ({pat_gender} == 1 && {pat_GA} == 252 && {pat_bweight}>= 3411){
             "p>97";
 }
 
 // 36.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight} < 2150) {
+else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight} < 2069) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 2150 && {pat_bweight} <2239){
+else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 2069 && {pat_bweight} <2155){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 2239 && {pat_bweight} <2369){
+else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 2155 && {pat_bweight} <2282){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 2369 && {pat_bweight} <2805){
+else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 2282 && {pat_bweight} <2706){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 2805 && {pat_bweight} <3277){
+else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 2706 && {pat_bweight} <3174){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 3277 && {pat_bweight} <3434){
+else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 3174 && {pat_bweight} <3333){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 3434 && {pat_bweight} <3546){
+else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 3333 && {pat_bweight} <3448){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 3546){
+else if ({pat_gender} == 1 && {pat_GA} == 253 && {pat_bweight}>= 3448){
             "p>97";
 }
 
 //36.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight} < 2174) {
+else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight} < 2093) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 2174 && {pat_bweight} <2263){
+else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 2093 && {pat_bweight} <2180){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 2263 && {pat_bweight} <2395){
+else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 2180 && {pat_bweight} <2308){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 2395 && {pat_bweight} <2836){
+else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 2308 && {pat_bweight} <2736){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 2836 && {pat_bweight} <3313){
+else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 2736 && {pat_bweight} <3209){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 3313 && {pat_bweight} <3472){
+else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 3209 && {pat_bweight} <3369){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 3472 && {pat_bweight} <3584){
+else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 3369 && {pat_bweight} <3484){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 3584){
+else if ({pat_gender} == 1 && {pat_GA} == 254 && {pat_bweight}>= 3484){
             "p>97";
 }
 
 //36.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight} < 2198) {
+else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight} < 2118) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 2198 && {pat_bweight} <2289){
+else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 2118 && {pat_bweight} <2205){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 2289 && {pat_bweight} <2422){
+else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 2205 && {pat_bweight} <2334){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 2422 && {pat_bweight} <2868){
+else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 2334 && {pat_bweight} <2766){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 2868 && {pat_bweight} <3351){
+else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 2766 && {pat_bweight} <3243){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 3351 && {pat_bweight} <3510){
+else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 3243 && {pat_bweight} <3405){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 3351 && {pat_bweight} <3623){
+else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 3405 && {pat_bweight} <3520){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 3623){
+else if ({pat_gender} == 1 && {pat_GA} == 255 && {pat_bweight}>= 3520){
             "p>97";
 }
 
 // 36.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight} < 2223) {
+else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight} < 2143) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 2223 && {pat_bweight} <2314){
+else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 2143 && {pat_bweight} <2230){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 2314 && {pat_bweight} <2449){
+else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 2230 && {pat_bweight} <2360){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 2449 && {pat_bweight} <2901){
+else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 2360 && {pat_bweight} <2796){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 2901 && {pat_bweight} <3389){
+else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 2796 && {pat_bweight} <3278){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 3389 && {pat_bweight} <3550){
+else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 3278 && {pat_bweight} <3441){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 3550 && {pat_bweight} <3663){
+else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 3441 && {pat_bweight} <3557){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 3663){
+else if ({pat_gender} == 1 && {pat_GA} == 256 && {pat_bweight}>= 3557){
             "p>97";
 }
 
 // 36.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight} < 2249) {
+else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight} < 2167) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 2249 && {pat_bweight} <2340){
+else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 2167 && {pat_bweight} <2255){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 2340 && {pat_bweight} <2476){
+else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 2255 && {pat_bweight} <2385){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 2476 && {pat_bweight} <2934){
+else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 2385 && {pat_bweight} <2826){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 2934 && {pat_bweight} <3427){
+else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 2826 && {pat_bweight} <3313){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 3427 && {pat_bweight} <3589){
+else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 3313 && {pat_bweight} <3477){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 3589 && {pat_bweight} <3703){
+else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 3477 && {pat_bweight} <3593){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 3703){
+else if ({pat_gender} == 1 && {pat_GA} == 257 && {pat_bweight}>= 3593){
             "p>97";
 }
 
 // 36.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight} < 2274) {
+else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight} < 2192) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 2274 && {pat_bweight} <2367){
+else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 2192 && {pat_bweight} <2280){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 2367 && {pat_bweight} <2504){
+else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 2280 && {pat_bweight} <2411){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 2504 && {pat_bweight} <2967){
+else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 2411 && {pat_bweight} <2856){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 2967 && {pat_bweight} <3466){
+else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 2856 && {pat_bweight} <3348){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 3466 && {pat_bweight} <3629){
+else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 3348 && {pat_bweight} <3512){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 3629 && {pat_bweight} <3743){
+else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 3512 && {pat_bweight} <3629){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 3743){
+else if ({pat_gender} == 1 && {pat_GA} == 258 && {pat_bweight}>= 3629){
             "p>97";
 }
 
 // 37 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight} < 2300) {
+else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight} < 2217) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 2300 && {pat_bweight} <2393){
+else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 2217 && {pat_bweight} <2305){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 2393 && {pat_bweight} <2531){
+else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 2305 && {pat_bweight} <2437){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 2531 && {pat_bweight} <3000){
+else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 2437 && {pat_bweight} <2886){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 3000 && {pat_bweight} <3504){
+else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 2886 && {pat_bweight} <3382){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 3504 && {pat_bweight} <3668){
+else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 3382 && {pat_bweight} <3548){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 3668 && {pat_bweight} <3783){
+else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 3548 && {pat_bweight} <3665){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 3783){
+else if ({pat_gender} == 1 && {pat_GA} == 259 && {pat_bweight}>= 3665){
             "p>97";
 }
 
 // 37.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight} < 2327) {
+else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight} < 2242) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 2327 && {pat_bweight} <2420){
+else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 2242 && {pat_bweight} <2331){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 2420 && {pat_bweight} <2559){
+else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 2331 && {pat_bweight} <2463){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 2559 && {pat_bweight} <3033){
+else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 2463 && {pat_bweight} <2916){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 3303 && {pat_bweight} <3542){
+else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 2916 && {pat_bweight} <3416){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 3542 && {pat_bweight} <3707){
+else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 3416 && {pat_bweight} <3583){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 3707 && {pat_bweight} <3822){
+else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 3583 && {pat_bweight} <3700){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 3822){
+else if ({pat_gender} == 1 && {pat_GA} == 260 && {pat_bweight}>= 3700){
             "p>97";
 }
 
 // 37.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight} < 2353) {
+else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight} < 2267) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 2353 && {pat_bweight} <2447){
+else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 2267 && {pat_bweight} <2356){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 2447 && {pat_bweight} <2587){
+else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 2356 && {pat_bweight} <2489){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 2587 && {pat_bweight} <3065){
+else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 2489 && {pat_bweight} <2946){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 3065 && {pat_bweight} <3579){
+else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 2946 && {pat_bweight} <3451){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 3579 && {pat_bweight} <3745){
+else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 3451 && {pat_bweight} <3618){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 3745 && {pat_bweight} <3860){
+else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 2618 && {pat_bweight} <3736){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 3860){
+else if ({pat_gender} == 1 && {pat_GA} == 261 && {pat_bweight}>= 3736){
             "p>97";
 }
 
 // 37.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight} < 2380) {
+else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight} < 2293) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 2380 && {pat_bweight} <2474){
+else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 2293 && {pat_bweight} <2382){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 2474 && {pat_bweight} <2616){
+else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 2382 && {pat_bweight} <2515){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 2616 && {pat_bweight} <3098){
+else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 2515 && {pat_bweight} <2976){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 3098 && {pat_bweight} <3615){
+else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 2976 && {pat_bweight} <3485){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 3615 && {pat_bweight} <3782){
+else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 3485 && {pat_bweight} <3652){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 3782 && {pat_bweight} <3897){
+else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 3652 && {pat_bweight} <3770){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 3897){
+else if ({pat_gender} == 1 && {pat_GA} == 262 && {pat_bweight}>= 3770){
             "p>97";
 }
 
 // 37.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight} < 2407) {
+else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight} < 2319) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 2407 && {pat_bweight} <2502){
+else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 2319 && {pat_bweight} <2408){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 2502 && {pat_bweight} <2644){
+else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 2408 && {pat_bweight} <2542){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 2644 && {pat_bweight} <3129){
+else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 2542 && {pat_bweight} <3006){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 3129 && {pat_bweight} <3650){
+else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 3006 && {pat_bweight} <3518){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 3650 && {pat_bweight} <3817){
+else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 3518 && {pat_bweight} <3687){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 3817 && {pat_bweight} <3933){
+else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 3687 && {pat_bweight} <3804){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 3933){
+else if ({pat_gender} == 1 && {pat_GA} == 263 && {pat_bweight}>= 3804){
             "p>97";
 }
 
 // 37.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight} < 2435) {
+else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight} < 2345) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 2435 && {pat_bweight} <2529){
+else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 2345 && {pat_bweight} <2434){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 2529 && {pat_bweight} <2671){
+else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 2434 && {pat_bweight} <2569){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 2671 && {pat_bweight} <3160){
+else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 2569 && {pat_bweight} <3036){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 3160 && {pat_bweight} <3684){
+else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 3036 && {pat_bweight} <3551){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 3684 && {pat_bweight} <3851){
+else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 3551 && {pat_bweight} <3720){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 3851 && {pat_bweight} <3967){
+else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 3720 && {pat_bweight} <3838){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 3967){
+else if ({pat_gender} == 1 && {pat_GA} == 264 && {pat_bweight}>= 3838){
             "p>97";
 }
 
 // 37.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight} < 2462) {
+else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight} < 2371) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 2462 && {pat_bweight} <2557){
+else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 2371 && {pat_bweight} <2461){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 2557 && {pat_bweight} <2699){
+else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 2461 && {pat_bweight} <2595){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 2699 && {pat_bweight} <3190){
+else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 2595 && {pat_bweight} <3065){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 3190 && {pat_bweight} <3717){
+else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 3065 && {pat_bweight} <3584){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 3717 && {pat_bweight} <3885){
+else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 3584 && {pat_bweight} <3753){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 3885 && {pat_bweight} <4000){
+else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 3753 && {pat_bweight} <3871){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 4000){
+else if ({pat_gender} == 1 && {pat_GA} == 265 && {pat_bweight}>= 3871){
             "p>97";
 }
 
 // 38 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight} < 2490) {
+else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight} < 2398) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 2490 && {pat_bweight} <2584){
+else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 2398 && {pat_bweight} <2487){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 2584 && {pat_bweight} <2727){
+else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 2487 && {pat_bweight} <2622){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 2727 && {pat_bweight} <3221){
+else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 2622 && {pat_bweight} <3095){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 3221 && {pat_bweight} <3750){
+else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 3095 && {pat_bweight} <3616){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 3750 && {pat_bweight} <3917){
+else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 3616 && {pat_bweight} <3785){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 3917 && {pat_bweight} <4032){
+else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 3785 && {pat_bweight} <3903){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 4032){
+else if ({pat_gender} == 1 && {pat_GA} == 266 && {pat_bweight}>= 3903){
             "p>97";
 }
 
 // 38.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight} < 2517) {
+else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight} < 2424) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 2517 && {pat_bweight} <2612){
+else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 2424 && {pat_bweight} <2513){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 2612 && {pat_bweight} <2755){
+else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 2513 && {pat_bweight} <2648){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 2755 && {pat_bweight} <3250){
+else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 2648 && {pat_bweight} <3123){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 3250 && {pat_bweight} <3781){
+else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 3123 && {pat_bweight} <3647){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 3781 && {pat_bweight} <3949){
+else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 3647 && {pat_bweight} <3817){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 3949 && {pat_bweight} <4064){
+else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 3817 && {pat_bweight} <3934){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 4064){
+else if ({pat_gender} == 1 && {pat_GA} == 267 && {pat_bweight}>= 3934){
             "p>97";
 }
 
 // 38.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight} < 2545) {
+else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight} < 2451) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 2545 && {pat_bweight} <2639){
+else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 2451 && {pat_bweight} <2540){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 2639 && {pat_bweight} <2782){
+else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 2540 && {pat_bweight} <2675){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 2782 && {pat_bweight} <3280){
+else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 2675 && {pat_bweight} <3152){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 3280 && {pat_bweight} <3812){
+else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 3152 && {pat_bweight} <3678){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 3812 && {pat_bweight} <3980){
+else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 3678 && {pat_bweight} <3847){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 3980 && {pat_bweight} <4095){
+else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 3847 && {pat_bweight} <3964){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 4095){
+else if ({pat_gender} == 1 && {pat_GA} == 268 && {pat_bweight}>= 3964){
             "p>97";
 }
 
 // 38.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight} < 2572) {
+else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight} < 2477) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 2572 && {pat_bweight} <2667){
+else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 2477 && {pat_bweight} <2566){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 2667 && {pat_bweight} <2810){
+else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 2566 && {pat_bweight} <2701){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 2810 && {pat_bweight} <3309){
+else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 2701 && {pat_bweight} <3180){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 3309 && {pat_bweight} <3843){
+else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 3180 && {pat_bweight} <3707){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 3843 && {pat_bweight} <4011){
+else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 3707 && {pat_bweight} <3876){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 4011 && {pat_bweight} <4126){
+else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 3876 && {pat_bweight} <3993){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 4126){
+else if ({pat_gender} == 1 && {pat_GA} == 269 && {pat_bweight}>= 3993){
             "p>97";
 }
 
 // 38.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight} < 2599) {
+else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight} < 2503) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 2599 && {pat_bweight} <2694){
+else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 2503 && {pat_bweight} <2592){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 2694 && {pat_bweight} <2837){
+else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 2592 && {pat_bweight} <2727){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 2837 && {pat_bweight} <3337){
+else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 2727 && {pat_bweight} <3207){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 3337 && {pat_bweight} <3874){
+else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 3207 && {pat_bweight} <3736){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 3874 && {pat_bweight} <4042){
+else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 3736 && {pat_bweight} <3905){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 4042 && {pat_bweight} <4156){
+else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 3905 && {pat_bweight} <4021){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 4156){
+else if ({pat_gender} == 1 && {pat_GA} == 270 && {pat_bweight}>= 4021){
             "p>97";
 }
 
 // 38.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight} < 2626) {
+else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight} < 2529) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 2626 && {pat_bweight} <2721){
+else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 2529 && {pat_bweight} <2618){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 2721 && {pat_bweight} <2864){
+else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 2618 && {pat_bweight} <2753){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 2864 && {pat_bweight} <3366){
+else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 2753 && {pat_bweight} <3234){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 3366 && {pat_bweight} <3904){
+else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 3234 && {pat_bweight} <3764){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 3904 && {pat_bweight} <4072){
+else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 3764 && {pat_bweight} <3933){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 4072 && {pat_bweight} <4187){
+else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 3933 && {pat_bweight} <4048){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 4187){
+else if ({pat_gender} == 1 && {pat_GA} == 271 && {pat_bweight}>= 4048){
             "p>97";
 }
 
 // 38.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight} < 2653) {
+else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight} < 2555) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 2653 && {pat_bweight} <2747){
+else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 2555 && {pat_bweight} <2643){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 2747 && {pat_bweight} <2890){
+else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 2643 && {pat_bweight} <2778){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 2890 && {pat_bweight} <3394){
+else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 2778 && {pat_bweight} <3260){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 3394 && {pat_bweight} <3934){
+else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 3260 && {pat_bweight} <3791){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 3934 && {pat_bweight} <4102){
+else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 3791 && {pat_bweight} <3960){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 4102 && {pat_bweight} <4217){
+else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 3960 && {pat_bweight} <4075){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 4217){
+else if ({pat_gender} == 1 && {pat_GA} == 272 && {pat_bweight}>= 4075){
             "p>97";
 }
 
 // 39 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight} < 2679) {
+else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight} < 2580) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 2679 && {pat_bweight} <2773){
+else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 2580 && {pat_bweight} <2668){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 2773 && {pat_bweight} <2917){
+else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 2668 && {pat_bweight} <2803){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 2917 && {pat_bweight} <3422){
+else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 2803 && {pat_bweight} <3287){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 3422 && {pat_bweight} <3964){
+else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 3287 && {pat_bweight} <3818){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 3964 && {pat_bweight} <4132){
+else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 3818 && {pat_bweight} <3986){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 4132 && {pat_bweight} <4247){
+else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 3986 && {pat_bweight} <4101){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 4247){
+else if ({pat_gender} == 1 && {pat_GA} == 273 && {pat_bweight}>= 4101){
             "p>97";
 }
 
 // 39.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight} < 2705) {
+else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight} < 2605) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 2705 && {pat_bweight} <2799){
+else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 2605 && {pat_bweight} <2693){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 2799 && {pat_bweight} <2942){
+else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 2693 && {pat_bweight} <2828){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 2942 && {pat_bweight} <3450){
+else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 2828 && {pat_bweight} <3313){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 3450 && {pat_bweight} <3993){
+else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 3313 && {pat_bweight} <3845){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 3993 && {pat_bweight} <4162){
+else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 3845 && {pat_bweight} <4013){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 4162 && {pat_bweight} <4277){
+else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 4013 && {pat_bweight} <4127){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 4277){
+else if ({pat_gender} == 1 && {pat_GA} == 274 && {pat_bweight}>= 4127){
             "p>97";
 }
 
 // 39.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight} < 2730) {
+else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight} < 2629) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 2730 && {pat_bweight} <2824){
+else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 2629 && {pat_bweight} <2717){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 2824 && {pat_bweight} <2968){
+else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 2717 && {pat_bweight} <2852){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 2968 && {pat_bweight} <3477){
+else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 2852 && {pat_bweight} <3338){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 3477 && {pat_bweight} <4023){
+else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 3338 && {pat_bweight} <3872){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 4023 && {pat_bweight} <4192){
+else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 3872 && {pat_bweight} <4040){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 4192 && {pat_bweight} <4307){
+else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 4040 && {pat_bweight} <4154){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 4307){
+else if ({pat_gender} == 1 && {pat_GA} == 275 && {pat_bweight}>= 4154){
             "p>97";
 }
 
 // 39.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight} < 2754) {
+else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight} < 2653) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 2754 && {pat_bweight} <2849){
+else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 2653 && {pat_bweight} <2741){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 2849 && {pat_bweight} <2993){
+else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 2741 && {pat_bweight} <2876){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 2993 && {pat_bweight} <3504){
+else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 2876 && {pat_bweight} <3364){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 3504 && {pat_bweight} <4053){
+else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 3364 && {pat_bweight} <3899){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 4053 && {pat_bweight} <4222){
+else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 3899 && {pat_bweight} <4066){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 4222 && {pat_bweight} <4337){
+else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 4066 && {pat_bweight} <4180){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 4337){
+else if ({pat_gender} == 1 && {pat_GA} == 276 && {pat_bweight}>= 4180){
             "p>97";
 }
 
 // 39.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight} < 2778) {
+else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight} < 2677) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 2778 && {pat_bweight} <2872){
+else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 2677 && {pat_bweight} <2765){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 2872 && {pat_bweight} <3017){
+else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 2765 && {pat_bweight} <2900){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 3017 && {pat_bweight} <3531){
+else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 2900 && {pat_bweight} <3389){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 3531 && {pat_bweight} <4082){
+else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 3389 && {pat_bweight} <3926){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 4082 && {pat_bweight} <4252){
+else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 3926 && {pat_bweight} <4093){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 4252 && {pat_bweight} <4367){
+else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 4093 && {pat_bweight} <4207){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 4367){
+else if ({pat_gender} == 1 && {pat_GA} == 277 && {pat_bweight}>= 4207){
             "p>97";
 }
 
 // 39.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight} < 2801) {
+else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight} < 2700) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 2801 && {pat_bweight} <2896){
+else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 2700 && {pat_bweight} <2788){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 2896 && {pat_bweight} <3041){
+else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 2788 && {pat_bweight} <2923){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 3041 && {pat_bweight} <3557){
+else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 2923 && {pat_bweight} <3414){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 3557 && {pat_bweight} <4111){
+else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 3414 && {pat_bweight} <3952){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 4111 && {pat_bweight} <4282){
+else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 3952 && {pat_bweight} <4120){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 4282 && {pat_bweight} <4397){
+else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 4120 && {pat_bweight} <4233){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 4397){
+else if ({pat_gender} == 1 && {pat_GA} == 278 && {pat_bweight}>= 4233){
             "p>97";
 }
 
 // 39.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight} < 2823) {
+else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight} < 2722) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 2823 && {pat_bweight} <2918){
+else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 2722 && {pat_bweight} <2810){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 2918 && {pat_bweight} <3064){
+else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 2810 && {pat_bweight} <2946){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 3064 && {pat_bweight} <3583){
+else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 2946 && {pat_bweight} <3439){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 3583 && {pat_bweight} <4139){
+else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 3439 && {pat_bweight} <3979){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 4139 && {pat_bweight} <4311){
+else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 3979 && {pat_bweight} <4146){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 4311 && {pat_bweight} <4426){
+else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 4146 && {pat_bweight} <4260){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 4426){
+else if ({pat_gender} == 1 && {pat_GA} == 279 && {pat_bweight}>= 4260){
             "p>97";
 }
 
 // 40 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight} < 2845) {
+else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight} < 2743) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 2845 && {pat_bweight} <2940){
+else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 2743 && {pat_bweight} <2831){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 2940 && {pat_bweight} <3086){
+else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 2831 && {pat_bweight} <2968){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 3086 && {pat_bweight} <3608){
+else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 2968 && {pat_bweight} <3463){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 3608 && {pat_bweight} <4167){
+else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 3463 && {pat_bweight} <4005){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 4167 && {pat_bweight} <4339){
+else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 4005 && {pat_bweight} <4173){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 4339 && {pat_bweight} <4455){
+else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 4173 && {pat_bweight} <4286){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 4455){
+else if ({pat_gender} == 1 && {pat_GA} == 280 && {pat_bweight}>= 4286){
             "p>97";
 }
 
 // 40.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight} < 2865) {
+else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight} < 2763) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 2865 && {pat_bweight} <2961){
+else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 2763 && {pat_bweight} <2852){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 2961 && {pat_bweight} <3108){
+else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 2852 && {pat_bweight} <2989){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 3108 && {pat_bweight} <3632){
+else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 2989 && {pat_bweight} <3486){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 3632 && {pat_bweight} <4195){
+else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 3486 && {pat_bweight} <4030){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 4195 && {pat_bweight} <4367){
+else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 4030 && {pat_bweight} <4199){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 44367 && {pat_bweight} <4483){
+else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 4199 && {pat_bweight} <4313){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 4483){
+else if ({pat_gender} == 1 && {pat_GA} == 281 && {pat_bweight}>= 4313){
             "p>97";
 }
 
 // 40.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight} < 2885) {
+else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight} < 2782) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 2885 && {pat_bweight} <2981){
+else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 2782 && {pat_bweight} <2871){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 2981 && {pat_bweight} <3128){
+else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 2871 && {pat_bweight} <3009){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 3128 && {pat_bweight} <3656){
+else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 3009 && {pat_bweight} <3509){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 3656 && {pat_bweight} <4221){
+else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 3509 && {pat_bweight} <4056){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 4221 && {pat_bweight} <4394){
+else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 4056 && {pat_bweight} <4224){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 4394 && {pat_bweight} <4511){
+else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 4224 && {pat_bweight} <4338){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 4511){
+else if ({pat_gender} == 1 && {pat_GA} == 282 && {pat_bweight}>= 4338){
             "p>97";
 }
 
 // 40.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight} < 2904) {
+else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight} < 2800) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 2904 && {pat_bweight} <3000){
+else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 2800 && {pat_bweight} <2890){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 3000 && {pat_bweight} <3148){
+else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 2890 && {pat_bweight} <3028){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 3148 && {pat_bweight} <3679){
+else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 3028 && {pat_bweight} <3531){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 3679 && {pat_bweight} <4247){
+else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 3531 && {pat_bweight} <4080){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 4247 && {pat_bweight} <4420){
+else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 4080 && {pat_bweight} <4249){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 4420 && {pat_bweight} <4537){
+else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 4249 && {pat_bweight} <4364){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 4537){
+else if ({pat_gender} == 1 && {pat_GA} == 283 && {pat_bweight}>= 4364){
             "p>97";
 }
 
 // 40.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight} < 2922) {
+else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight} < 2817) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 2922 && {pat_bweight} <3019){
+else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 2817 && {pat_bweight} <2907){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 3019 && {pat_bweight} <3168){
+else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 2907 && {pat_bweight} <3046){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 3168 && {pat_bweight} <3701){
+else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 3046 && {pat_bweight} <3552){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 3701 && {pat_bweight} <4272){
+else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 3552 && {pat_bweight} <4104){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 4272 && {pat_bweight} <4446){
+else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 4104 && {pat_bweight} <4274){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 4446 && {pat_bweight} <4563){
+else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 4274 && {pat_bweight} <4388){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 4563){
+else if ({pat_gender} == 1 && {pat_GA} == 284 && {pat_bweight}>= 4388){
             "p>97";
 }
 
 // 40.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight} < 2939) {
+else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight} < 2833) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 2939 && {pat_bweight} <3036){
+else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 2833 && {pat_bweight} <2924){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 3036 && {pat_bweight} <3186){
+else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 2924 && {pat_bweight} <3064){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 3186 && {pat_bweight} <3722){
+else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 3064 && {pat_bweight} <3573){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 3722 && {pat_bweight} <4296){
+else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 3573 && {pat_bweight} <4127){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 4296 && {pat_bweight} <4470){
+else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 4127 && {pat_bweight} <4298){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 4470 && {pat_bweight} <4587){
+else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 4298 && {pat_bweight} <4413){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 4587){
+else if ({pat_gender} == 1 && {pat_GA} == 285 && {pat_bweight}>= 4413){
             "p>97";
 }
 
 // 40.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight} < 2956) {
+else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight} < 2849) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 2956 && {pat_bweight} <3053){
+else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 2849 && {pat_bweight} <2939){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 3053 && {pat_bweight} <3203){
+else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 2939 && {pat_bweight} <3080){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 3203 && {pat_bweight} <3743){
+else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 3080 && {pat_bweight} <3592){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 3743 && {pat_bweight} <4319){
+else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 3592 && {pat_bweight} <4150){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 4319 && {pat_bweight} <4494){
+else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 4150 && {pat_bweight} <4321){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 4494 && {pat_bweight} <4611){
+else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 4321 && {pat_bweight} <4436){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 4611){
+else if ({pat_gender} == 1 && {pat_GA} == 286 && {pat_bweight}>= 4436){
             "p>97";
 }
 
 // 41 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight} < 2971) {
+else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight} < 2863) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 2971 && {pat_bweight} <3069){
+else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 2863 && {pat_bweight} <2954){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 3069 && {pat_bweight} <3220){
+else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 2954 && {pat_bweight} <3096){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 3220 && {pat_bweight} <3762){
+else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 3096 && {pat_bweight} <3611){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 3762 && {pat_bweight} <4342){
+else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 3611 && {pat_bweight} <4172){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 4342 && {pat_bweight} <4517){
+else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 4172 && {pat_bweight} <4343){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 4517 && {pat_bweight} <4653){
+else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 4343 && {pat_bweight} <4459){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 4653){
+else if ({pat_gender} == 1 && {pat_GA} == 287 && {pat_bweight}>= 4459){
             "p>97";
 }
 
 // 41.1
 
-else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight} < 2986) {
+else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight} < 2876) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 2986 && {pat_bweight} <3084){
+else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 2876 && {pat_bweight} <2968){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 3084 && {pat_bweight} <3236){
+else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 2968 && {pat_bweight} <3111){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 3236 && {pat_bweight} <3782){
+else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 3111 && {pat_bweight} <3629){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 3782 && {pat_bweight} <4364){
+else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 3629 && {pat_bweight} <4193){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 4364 && {pat_bweight} <4540){
+else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 4193 && {pat_bweight} <4365){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 4540 && {pat_bweight} <4658){
+else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 4365 && {pat_bweight} <4481){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 4658){
+else if ({pat_gender} == 1 && {pat_GA} == 288 && {pat_bweight}>= 4481){
             "p>97";
 }
 
 // 41.2
 
-else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight} < 2999) {
+else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight} < 2889) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 2999 && {pat_bweight} <3099){
+else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 2889 && {pat_bweight} <2981){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 3099 && {pat_bweight} <3251){
+else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 2981 && {pat_bweight} <3125){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 3251 && {pat_bweight} <3800){
+else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 3125 && {pat_bweight} <3646){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 3800 && {pat_bweight} <4385){
+else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 3646 && {pat_bweight} <4213){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 4385 && {pat_bweight} <4562){
+else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 4213 && {pat_bweight} <4386){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 4562 && {pat_bweight} <4680){
+else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 4386 && {pat_bweight} <4502){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 4680){
+else if ({pat_gender} == 1 && {pat_GA} == 289 && {pat_bweight}>= 4502){
             "p>97";
 }
 
 // 41.3
 
-else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight} < 3012) {
+else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight} < 2901) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 3012 && {pat_bweight} <3112){
+else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 2901 && {pat_bweight} <2994){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 3112 && {pat_bweight} <3266){
+else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 2994 && {pat_bweight} <3138){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 3266 && {pat_bweight} <3819){
+else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 3138 && {pat_bweight} <3663){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 3819 && {pat_bweight} <4407){
+else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 3663 && {pat_bweight} <4232){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 4407 && {pat_bweight} <4584){
+else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 4232 && {pat_bweight} <4406){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 4584 && {pat_bweight} <4584){
+else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 4406 && {pat_bweight} <4522){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 4702){
+else if ({pat_gender} == 1 && {pat_GA} == 290 && {pat_bweight}>= 4522){
             "p>97";
 }
 
 // 41.4
 
-else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight} < 3025) {
+else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight} < 2912) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 3025 && {pat_bweight} <3125){
+else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 2912 && {pat_bweight} <3006){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 3125 && {pat_bweight} <3280){
+else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 3006 && {pat_bweight} <3150){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 3280 && {pat_bweight} <3836){
+else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 3150 && {pat_bweight} <3678){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 3836 && {pat_bweight} <4427){
+else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 3678 && {pat_bweight} <4251){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 4427 && {pat_bweight} <4606){
+else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 4251 && {pat_bweight} <4425){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 4606 && {pat_bweight} <4724){
+else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 4425 && {pat_bweight} <4542){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 4724){
+else if ({pat_gender} == 1 && {pat_GA} == 291 && {pat_bweight}>= 4542){
             "p>97";
 }
 
 // 41.5
 
-else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight} < 3036) {
+else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight} < 2923) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 3036 && {pat_bweight} <3137){
+else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 2923 && {pat_bweight} <3017){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 3137 && {pat_bweight} <3293){
+else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 3017 && {pat_bweight} <3163){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 3293 && {pat_bweight} <3853){
+else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 3163 && {pat_bweight} <3694){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 3853 && {pat_bweight} <4448){
+else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 3694 && {pat_bweight} <4269){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 4448 && {pat_bweight} <4627){
+else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 4269 && {pat_bweight} <4444){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 4627 && {pat_bweight} <4746){
+else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 4444 && {pat_bweight} <4561){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 4746){
+else if ({pat_gender} == 1 && {pat_GA} == 292 && {pat_bweight}>= 4561){
             "p>97";
 }
 
 // 41.6
 
-else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight} < 3047) {
+else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight} < 2933) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 3047 && {pat_bweight} <3149){
+else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 2933 && {pat_bweight} <3028){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 3149 && {pat_bweight} <3306){
+else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 3028 && {pat_bweight} <3174){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 3306 && {pat_bweight} <3870){
+else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 3174 && {pat_bweight} <3708){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 3870 && {pat_bweight} <4468){
+else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 3708 && {pat_bweight} <4286){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 4468 && {pat_bweight} <4648){
+else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 4286 && {pat_bweight} <4462){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 4648 && {pat_bweight} <4767){
+else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 4462 && {pat_bweight} <4579){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 4767){
+else if ({pat_gender} == 1 && {pat_GA} == 293 && {pat_bweight}>= 4579){
             "p>97";
 }
 
 // 42 weeks (exact)
 
-else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight} < 3058) {
+else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight} < 2943) {
     "p<3";
   }
-else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 3058 && {pat_bweight} <3160){
+else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 2943 && {pat_bweight} <3038){
     "p3-p5";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 3160 && {pat_bweight} <3318){
+else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 3038 && {pat_bweight} <3185){
     "p5-p10";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 3318 && {pat_bweight} <3886){
+else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 3185 && {pat_bweight} <3722){
     "p10-p50";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 3886 && {pat_bweight} <4488){
+else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 3722 && {pat_bweight} <4303){
     "p50-p90";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 4488 && {pat_bweight} <4668){
+else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 4303 && {pat_bweight} <4479){
     "p90-p95";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 4668 && {pat_bweight} <4788){
+else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 4479 && {pat_bweight} <4597){
     "p95-p97";
 }
-else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 4788){
+else if ({pat_gender} == 1 && {pat_GA} == 294 && {pat_bweight}>= 4597){
             "p>97";
+}
+
+//other vavlues return error
+else {
+    "unknown percentile";
 }
