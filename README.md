@@ -46,6 +46,5 @@ Next, since the code is split. A dependency must be added to only execute the ca
 ## Other Uses
 The functionality of this code can easily be recreated for other birthweight charts. Please feel free to use this code and adapt this to your own birthweight charts. Since the code is written in Javascript, this code can be easily adapted for web and app use as well. 
 
-## Terms and Conditions
-
 ## License
+   GNU GENERAL PUBLIC LICENSE
