@@ -1,0 +1,3 @@
+//Simply copy and past the code below. NOTE! You may have used a different variable name, please adjust accordingly.
+
+({inclusion_pat_pregnancydurationweeks} * 7) + ({inclusion_pat_pregnancydurationdays});
