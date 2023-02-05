@@ -22,6 +22,7 @@ In general, gestational age is provided in completed weeks and days (e.g. 36+5).
 ```
 VAR_GA_DAYS = ({pregnancydurationweeks} * 7) + ({pregnancydurationdays});
 ```
+![This is an image](https://github.com/kishtsang/PerinedCastorEDC/blob/main/Scherm%C2%ADafbeelding%202023-02-05%20om%2008.48.18.png?raw=true)
 
 ### Variables
 The variables used in the calculation are:
@@ -37,13 +38,17 @@ VAR_BIRTHWEIGHT
 
 Variables can be recognised by the use of Curly Brackets { }. Since you will probably not use the same variables as mentioned in the code provided here, you will have to change this in order to use the calculation form within your study. I'd stronly advise using a text editor such as Sublime Text to find and replace the variables using the "Find" and "Replace All" functionality. 
 
-![This is an image](/assets/images/Scherm%20afbeelding%202023-02-05%20om%2014.16.44.png)
+![This is an image](https://github.com/kishtsang/PerinedCastorEDC/blob/main/Scherm%C2%ADafbeelding%202023-02-05%20om%2014.16.44.png?raw=true)
 
 ### Using the Calculation
 Simply copy the Male or Female code from this page to your desired text editor. Replace your variable names accordingly and copy the code in the Calculation template field. Don't click "Save" yet, as we have to build our dependencies.
 
+![This is an image](https://github.com/kishtsang/PerinedCastorEDC/blob/main/Scherm%C2%ADafbeelding%202023-02-05%20om%2014.11.12.png?raw=true)
+
 ### Dependencies
 Next, since the code is split. A dependency must be added to only execute the calculation for the correct sex. Navigate to dependencies, mark field is dependent on "Yes" and add the correct variable and sex for the code. Before clicking, "Save" make sure that the sex matches your calculation as this can be a major point of fuck up. If you are sure, then click "Save".
+
+![This is an image](https://github.com/kishtsang/PerinedCastorEDC/blob/main/Scherm%C2%ADafbeelding%202023-02-05%20om%2014.11.32.png)
 
 The calculation field will automatically check if the provided variables are being used in your study. If not, you will receive a notification. If you receive such a notification, go back to your code and make sure that you have spelled all of the used variables right.
 
