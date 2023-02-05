@@ -37,7 +37,7 @@ VAR_BIRTHWEIGHT
 
 Variables can be recognised by the use of Curly Brackets { }. Since you will probably not use the same variables as mentioned in the code provided here, you will have to change this in order to use the calculation form within your study. I'd stronly advise using a text editor such as Sublime Text to find and replace the variables using the "Find" and "Replace All" functionality. 
 
-![alt text]()
+![This is an image](/assets/images/Scherm­afbeelding 2023-02-05 om 14.16.44.png)
 
 ### Using the Calculation
 Simply copy the Male or Female code from this page to your desired text editor. Replace your variable names accordingly and copy the code in the Calculation template field. Don't click "Save" yet, as we have to build our dependencies.
