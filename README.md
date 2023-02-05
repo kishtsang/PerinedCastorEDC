@@ -35,7 +35,7 @@ Birthweight in grams
 VAR_BIRTHWEIGHT
 ```
 
-Variables can be recognised by the use of Curly Brackets { }. Since you will probably not use the same variables as mentioned in the code provided here, you will have to change this in order to use the calculation form within your study. I advise to use a text editor such as Sublime Text to find and replace the variables using the "Find" and "Replace All" functionality. 
+Variables can be recognised by the use of Curly Brackets { }. Since you will probably not use the same variables as mentioned in the code provided here, you will have to change this in order to use the calculation form within your study. I'd stronly advise using a text editor such as Sublime Text to find and replace the variables using the "Find" and "Replace All" functionality. 
 
 ![alt text]()
 
