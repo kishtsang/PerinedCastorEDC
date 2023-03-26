@@ -1,1341 +1,1341 @@
 // Gender: Female
 // 23 weeks (exact) 
 if ({VAR_GA_DAYS} == 161){
-if ({VAR_BIRTHWEIGHT} < 373) "p<3";
-else if ({VAR_BIRTHWEIGHT} <396)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <428)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <518)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <609)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <643)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <669)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 373) "<3";
+else if ({VAR_BIRTHWEIGHT} <396)"3-5";
+else if ({VAR_BIRTHWEIGHT} <428)"5-10";
+else if ({VAR_BIRTHWEIGHT} <518)"10-50";
+else if ({VAR_BIRTHWEIGHT} <609)"50-90";
+else if ({VAR_BIRTHWEIGHT} <643)"90-95";
+else if ({VAR_BIRTHWEIGHT} <669)"95-97";
+else ">97";}
 //23.1
 else if ({VAR_GA_DAYS} == 162){
-if ({VAR_BIRTHWEIGHT} < 385) "p<3";
-else if ({VAR_BIRTHWEIGHT} <409)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <442)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <534)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <628)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <663)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <689)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 385) "<3";
+else if ({VAR_BIRTHWEIGHT} <409)"3-5";
+else if ({VAR_BIRTHWEIGHT} <442)"5-10";
+else if ({VAR_BIRTHWEIGHT} <534)"10-50";
+else if ({VAR_BIRTHWEIGHT} <628)"50-90";
+else if ({VAR_BIRTHWEIGHT} <663)"90-95";
+else if ({VAR_BIRTHWEIGHT} <689)"95-97";
+else ">97";}
 //23.2
 else if ({VAR_GA_DAYS} == 163){
-if ({VAR_BIRTHWEIGHT} < 398) "p<3";
-else if ({VAR_BIRTHWEIGHT} <423)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <456)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <550)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <647)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <682)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <709)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 398) "<3";
+else if ({VAR_BIRTHWEIGHT} <423)"3-5";
+else if ({VAR_BIRTHWEIGHT} <456)"5-10";
+else if ({VAR_BIRTHWEIGHT} <550)"10-50";
+else if ({VAR_BIRTHWEIGHT} <647)"50-90";
+else if ({VAR_BIRTHWEIGHT} <682)"90-95";
+else if ({VAR_BIRTHWEIGHT} <709)"95-97";
+else ">97";}
 //23.3
 else if ({VAR_GA_DAYS} == 164){
-if ({VAR_BIRTHWEIGHT} < 410) "p<3";
-else if ({VAR_BIRTHWEIGHT} <436)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <470)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <566)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <665)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <702)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <730)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 410) "<3";
+else if ({VAR_BIRTHWEIGHT} <436)"3-5";
+else if ({VAR_BIRTHWEIGHT} <470)"5-10";
+else if ({VAR_BIRTHWEIGHT} <566)"10-50";
+else if ({VAR_BIRTHWEIGHT} <665)"50-90";
+else if ({VAR_BIRTHWEIGHT} <702)"90-95";
+else if ({VAR_BIRTHWEIGHT} <730)"95-97";
+else ">97";}
 //23.4
 else  if ({VAR_GA_DAYS} == 165){
-if ({VAR_BIRTHWEIGHT} < 423) "p<3";
-else if ({VAR_BIRTHWEIGHT} <449)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <484)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <583)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <684)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <722)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <750)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 423) "<3";
+else if ({VAR_BIRTHWEIGHT} <449)"3-5";
+else if ({VAR_BIRTHWEIGHT} <484)"5-10";
+else if ({VAR_BIRTHWEIGHT} <583)"10-50";
+else if ({VAR_BIRTHWEIGHT} <684)"50-90";
+else if ({VAR_BIRTHWEIGHT} <722)"90-95";
+else if ({VAR_BIRTHWEIGHT} <750)"95-97";
+else ">97";}
 //23.5
 else if ({VAR_GA_DAYS} == 166){
-if ({VAR_BIRTHWEIGHT} < 436) "p<3";
-else if ({VAR_BIRTHWEIGHT} <462)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <498)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <599)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <703)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <741)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <770)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 436) "<3";
+else if ({VAR_BIRTHWEIGHT} <462)"3-5";
+else if ({VAR_BIRTHWEIGHT} <498)"5-10";
+else if ({VAR_BIRTHWEIGHT} <599)"10-50";
+else if ({VAR_BIRTHWEIGHT} <703)"50-90";
+else if ({VAR_BIRTHWEIGHT} <741)"90-95";
+else if ({VAR_BIRTHWEIGHT} <770)"95-97";
+else ">97";}
 //23.6
 else if ({VAR_GA_DAYS} == 167){
-if ({VAR_BIRTHWEIGHT} < 448) "p<3";
-else if ({VAR_BIRTHWEIGHT} <475)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <512)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <615)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <721)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <769)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <790)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 448) "<3";
+else if ({VAR_BIRTHWEIGHT} <475)"3-5";
+else if ({VAR_BIRTHWEIGHT} <512)"5-10";
+else if ({VAR_BIRTHWEIGHT} <615)"10-50";
+else if ({VAR_BIRTHWEIGHT} <721)"50-90";
+else if ({VAR_BIRTHWEIGHT} <760)"90-95";
+else if ({VAR_BIRTHWEIGHT} <790)"95-97";
+else ">97";}
 // 24 weeks (exact)
 else if ({VAR_GA_DAYS} == 168){
-if ({VAR_BIRTHWEIGHT} < 461) "p<3";
-else if ({VAR_BIRTHWEIGHT} <488)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <526)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <631)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <740)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <780)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <810)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 461) "<3";
+else if ({VAR_BIRTHWEIGHT} <488)"3-5";
+else if ({VAR_BIRTHWEIGHT} <526)"5-10";
+else if ({VAR_BIRTHWEIGHT} <631)"10-50";
+else if ({VAR_BIRTHWEIGHT} <740)"50-90";
+else if ({VAR_BIRTHWEIGHT} <780)"90-95";
+else if ({VAR_BIRTHWEIGHT} <810)"95-97";
+else ">97";}
 //24.1
 else if ({VAR_GA_DAYS} == 169){
-if ({VAR_BIRTHWEIGHT} < 474) "p<3";
-else if ({VAR_BIRTHWEIGHT} <502)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <540)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <647)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <758)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <799)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <830)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 474) "<3";
+else if ({VAR_BIRTHWEIGHT} <502)"3-5";
+else if ({VAR_BIRTHWEIGHT} <540)"5-10";
+else if ({VAR_BIRTHWEIGHT} <647)"10-50";
+else if ({VAR_BIRTHWEIGHT} <758)"50-90";
+else if ({VAR_BIRTHWEIGHT} <799)"90-95";
+else if ({VAR_BIRTHWEIGHT} <830)"95-97";
+else ">97";}
 //24.2
 else if ({VAR_GA_DAYS} == 170){
-if ({VAR_BIRTHWEIGHT} < 486) "p<3";
-else if ({VAR_BIRTHWEIGHT} <515)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <553)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <663)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <776)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <818)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <849)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 486) "<3";
+else if ({VAR_BIRTHWEIGHT} <515)"3-5";
+else if ({VAR_BIRTHWEIGHT} <553)"5-10";
+else if ({VAR_BIRTHWEIGHT} <663)"10-50";
+else if ({VAR_BIRTHWEIGHT} <776)"50-90";
+else if ({VAR_BIRTHWEIGHT} <818)"90-95";
+else if ({VAR_BIRTHWEIGHT} <849)"95-97";
+else ">97";}
 //24.3
 else if ({VAR_GA_DAYS} == 171){
-if ({VAR_BIRTHWEIGHT} < 499) "p<3";
-else if ({VAR_BIRTHWEIGHT} <528)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <567)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <679)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <795)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <837)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <869)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 499) "<3";
+else if ({VAR_BIRTHWEIGHT} <528)"3-5";
+else if ({VAR_BIRTHWEIGHT} <567)"5-10";
+else if ({VAR_BIRTHWEIGHT} <679)"10-50";
+else if ({VAR_BIRTHWEIGHT} <795)"50-90";
+else if ({VAR_BIRTHWEIGHT} <837)"90-95";
+else if ({VAR_BIRTHWEIGHT} <869)"95-97";
+else ">97";}
 //24.4
 else if ({VAR_GA_DAYS} == 172){
-if ({VAR_BIRTHWEIGHT} < 511) "p<3";
-else if ({VAR_BIRTHWEIGHT} <541)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <581)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <695)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <813)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <856)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <889)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 511) "<3";
+else if ({VAR_BIRTHWEIGHT} <541)"3-5";
+else if ({VAR_BIRTHWEIGHT} <581)"5-10";
+else if ({VAR_BIRTHWEIGHT} <695)"10-50";
+else if ({VAR_BIRTHWEIGHT} <813)"50-90";
+else if ({VAR_BIRTHWEIGHT} <856)"90-95";
+else if ({VAR_BIRTHWEIGHT} <889)"95-97";
+else ">97";}
 //24.5
 else if ({VAR_GA_DAYS} == 173){
-if ({VAR_BIRTHWEIGHT} < 524) "p<3";
-else if ({VAR_BIRTHWEIGHT} <554)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <595)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <711)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <831)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <875)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <908)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 524) "<3";
+else if ({VAR_BIRTHWEIGHT} <554)"3-5";
+else if ({VAR_BIRTHWEIGHT} <595)"5-10";
+else if ({VAR_BIRTHWEIGHT} <711)"10-50";
+else if ({VAR_BIRTHWEIGHT} <831)"50-90";
+else if ({VAR_BIRTHWEIGHT} <875)"90-95";
+else if ({VAR_BIRTHWEIGHT} <908)"95-97";
+else ">97";}
 //24.6
 else if ({VAR_GA_DAYS} == 174){
-if ({VAR_BIRTHWEIGHT} < 536) "p<3";
-else if ({VAR_BIRTHWEIGHT} <567)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <608)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <727)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <849)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <894)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <928)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 536) "<3";
+else if ({VAR_BIRTHWEIGHT} <567)"3-5";
+else if ({VAR_BIRTHWEIGHT} <608)"5-10";
+else if ({VAR_BIRTHWEIGHT} <727)"10-50";
+else if ({VAR_BIRTHWEIGHT} <849)"50-90";
+else if ({VAR_BIRTHWEIGHT} <894)"90-95";
+else if ({VAR_BIRTHWEIGHT} <928)"95-97";
+else ">97";}
 // 25 weeks (exact)
 else if ({VAR_GA_DAYS} == 175){
-if ({VAR_BIRTHWEIGHT} < 548) "p<3";
-else if ({VAR_BIRTHWEIGHT} <580)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <622)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <742)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <867)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <913)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <947)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 548) "<3";
+else if ({VAR_BIRTHWEIGHT} <580)"3-5";
+else if ({VAR_BIRTHWEIGHT} <622)"5-10";
+else if ({VAR_BIRTHWEIGHT} <742)"10-50";
+else if ({VAR_BIRTHWEIGHT} <867)"50-90";
+else if ({VAR_BIRTHWEIGHT} <913)"90-95";
+else if ({VAR_BIRTHWEIGHT} <947)"95-97";
+else ">97";}
 //25.1
 else if ({VAR_GA_DAYS} == 176){
-if ({VAR_BIRTHWEIGHT} < 561) "p<3";
-else if ({VAR_BIRTHWEIGHT} <592)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <635)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <758)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <885)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <932)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <967)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 561) "<3";
+else if ({VAR_BIRTHWEIGHT} <592)"3-5";
+else if ({VAR_BIRTHWEIGHT} <635)"5-10";
+else if ({VAR_BIRTHWEIGHT} <758)"10-50";
+else if ({VAR_BIRTHWEIGHT} <885)"50-90";
+else if ({VAR_BIRTHWEIGHT} <932)"90-95";
+else if ({VAR_BIRTHWEIGHT} <967)"95-97";
+else ">97";}
 //25.2
 else if ({VAR_GA_DAYS} == 177){
-if ({VAR_BIRTHWEIGHT} < 573) "p<3";
-else if ({VAR_BIRTHWEIGHT} <605)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <649)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <774)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <903)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <951)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <986)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 573) "<3";
+else if ({VAR_BIRTHWEIGHT} <605)"3-5";
+else if ({VAR_BIRTHWEIGHT} <649)"5-10";
+else if ({VAR_BIRTHWEIGHT} <774)"10-50";
+else if ({VAR_BIRTHWEIGHT} <903)"50-90";
+else if ({VAR_BIRTHWEIGHT} <951)"90-95";
+else if ({VAR_BIRTHWEIGHT} <986)"95-97";
+else ">97";}
 //25.3
 else if ({VAR_GA_DAYS} == 178){
-if ({VAR_BIRTHWEIGHT} < 586) "p<3";
-else if ({VAR_BIRTHWEIGHT} <618)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <663)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <790)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <922)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <970)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1006)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 586) "<3";
+else if ({VAR_BIRTHWEIGHT} <618)"3-5";
+else if ({VAR_BIRTHWEIGHT} <663)"5-10";
+else if ({VAR_BIRTHWEIGHT} <790)"10-50";
+else if ({VAR_BIRTHWEIGHT} <922)"50-90";
+else if ({VAR_BIRTHWEIGHT} <970)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1006)"95-97";
+else ">97";}
 // 25.4
 else if ({VAR_GA_DAYS} == 179){
-if ({VAR_BIRTHWEIGHT} < 598) "p<3";
-else if ({VAR_BIRTHWEIGHT} <632)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <677)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <806)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <940)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <989)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1027)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 598) "<3";
+else if ({VAR_BIRTHWEIGHT} <632)"3-5";
+else if ({VAR_BIRTHWEIGHT} <677)"5-10";
+else if ({VAR_BIRTHWEIGHT} <806)"10-50";
+else if ({VAR_BIRTHWEIGHT} <940)"50-90";
+else if ({VAR_BIRTHWEIGHT} <989)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1027)"95-97";
+else ">97";}
 //25.5
 else if ({VAR_GA_DAYS} == 180){
-if ({VAR_BIRTHWEIGHT} < 611) "p<3";
-else if ({VAR_BIRTHWEIGHT} <645)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <691)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <823)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <959)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1010)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1047)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 611) "<3";
+else if ({VAR_BIRTHWEIGHT} <645)"3-5";
+else if ({VAR_BIRTHWEIGHT} <691)"5-10";
+else if ({VAR_BIRTHWEIGHT} <823)"10-50";
+else if ({VAR_BIRTHWEIGHT} <959)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1010)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1047)"95-97";
+else ">97";}
 //25.6
 else if ({VAR_GA_DAYS} == 181){
-if ({VAR_BIRTHWEIGHT} < 625) "p<3";
-else if ({VAR_BIRTHWEIGHT} <659)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <706)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <840)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <979)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1030)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1069)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 625) "<3";
+else if ({VAR_BIRTHWEIGHT} <659)"3-5";
+else if ({VAR_BIRTHWEIGHT} <706)"5-10";
+else if ({VAR_BIRTHWEIGHT} <840)"10-50";
+else if ({VAR_BIRTHWEIGHT} <979)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1030)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1069)"95-97";
+else ">97";}
 // 26 weeks (exact)
 else if ({VAR_GA_DAYS} == 182){
-if ({VAR_BIRTHWEIGHT} < 638) "p<3";
-else if ({VAR_BIRTHWEIGHT} <673)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <721)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <857)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <999)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1051)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1091)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 638) "<3";
+else if ({VAR_BIRTHWEIGHT} <673)"3-5";
+else if ({VAR_BIRTHWEIGHT} <721)"5-10";
+else if ({VAR_BIRTHWEIGHT} <857)"10-50";
+else if ({VAR_BIRTHWEIGHT} <999)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1051)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1091)"95-97";
+else ">97";}
 // 26.1
 else if ({VAR_GA_DAYS} == 183){
-if ({VAR_BIRTHWEIGHT} < 652) "p<3";
-else if ({VAR_BIRTHWEIGHT} <688)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <736)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <875)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1020)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1073)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1113)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 652) "<3";
+else if ({VAR_BIRTHWEIGHT} <688)"3-5";
+else if ({VAR_BIRTHWEIGHT} <736)"5-10";
+else if ({VAR_BIRTHWEIGHT} <875)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1020)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1073)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1113)"95-97";
+else ">97";}
 // 26.2
 else if ({VAR_GA_DAYS} == 184){
-if ({VAR_BIRTHWEIGHT} < 666) "p<3";
-else if ({VAR_BIRTHWEIGHT} <702)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <752)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <894)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1041)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1095)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1136)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 666) "<3";
+else if ({VAR_BIRTHWEIGHT} <702)"3-5";
+else if ({VAR_BIRTHWEIGHT} <752)"5-10";
+else if ({VAR_BIRTHWEIGHT} <894)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1041)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1095)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1136)"95-97";
+else ">97";}
 // 26.3
 else if ({VAR_GA_DAYS} == 185){
-if ({VAR_BIRTHWEIGHT} < 680) "p<3";
-else if ({VAR_BIRTHWEIGHT} <717)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <768)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <912)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1062)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1118)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1160)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 680) "<3";
+else if ({VAR_BIRTHWEIGHT} <717)"3-5";
+else if ({VAR_BIRTHWEIGHT} <768)"5-10";
+else if ({VAR_BIRTHWEIGHT} <912)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1062)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1118)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1160)"95-97";
+else ">97";}
 // 26.4
 else if ({VAR_GA_DAYS} == 186){
-if ({VAR_BIRTHWEIGHT} < 695) "p<3";
-else if ({VAR_BIRTHWEIGHT} <733)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <784)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <931)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1085)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1141)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1141)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 695) "<3";
+else if ({VAR_BIRTHWEIGHT} <733)"3-5";
+else if ({VAR_BIRTHWEIGHT} <784)"5-10";
+else if ({VAR_BIRTHWEIGHT} <931)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1085)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1141)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1184)"95-97";
+else ">97";}
 // 26.5
 else if ({VAR_GA_DAYS} == 187){
-if ({VAR_BIRTHWEIGHT} < 710) "p<3";
-else if ({VAR_BIRTHWEIGHT} <748)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <801)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <951)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1107)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1165)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1209)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 710) "<3";
+else if ({VAR_BIRTHWEIGHT} <748)"3-5";
+else if ({VAR_BIRTHWEIGHT} <801)"5-10";
+else if ({VAR_BIRTHWEIGHT} <951)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1107)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1165)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1209)"95-97";
+else ">97";}
 // 26.6
 else if ({VAR_GA_DAYS} == 188){
-if ({VAR_BIRTHWEIGHT} < 725) "p<3";
-else if ({VAR_BIRTHWEIGHT} <765)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <818)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <971)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1130)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1189)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1234)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 725) "<3";
+else if ({VAR_BIRTHWEIGHT} <765)"3-5";
+else if ({VAR_BIRTHWEIGHT} <818)"5-10";
+else if ({VAR_BIRTHWEIGHT} <971)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1130)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1189)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1234)"95-97";
+else ">97";}
 // 27 weeks (exact)
 else if ({VAR_GA_DAYS} == 189){
-if ({VAR_BIRTHWEIGHT} < 741) "p<3";
-else if ({VAR_BIRTHWEIGHT} <781)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <835)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <991)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1154)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1214)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1260)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 741) "<3";
+else if ({VAR_BIRTHWEIGHT} <781)"3-5";
+else if ({VAR_BIRTHWEIGHT} <835)"5-10";
+else if ({VAR_BIRTHWEIGHT} <991)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1154)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1214)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1260)"95-97";
+else ">97";}
 // 27.1
 else if ({VAR_GA_DAYS} == 190){
-if ({VAR_BIRTHWEIGHT} < 757) "p<3";
-else if ({VAR_BIRTHWEIGHT} <798)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <853)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1012)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1178)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1240)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1286)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 757) "<3";
+else if ({VAR_BIRTHWEIGHT} <798)"3-5";
+else if ({VAR_BIRTHWEIGHT} <853)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1012)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1178)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1240)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1286)"95-97";
+else ">97";}
 // 27.2
 else if ({VAR_GA_DAYS} == 191){
-if ({VAR_BIRTHWEIGHT} < 773) "p<3";
-else if ({VAR_BIRTHWEIGHT} <814)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <871)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1033)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1203)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1265)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1313)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 773) "<3";
+else if ({VAR_BIRTHWEIGHT} <814)"3-5";
+else if ({VAR_BIRTHWEIGHT} <871)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1033)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1203)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1265)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1313)"95-97";
+else ">97";}
 // 27.3
 else if ({VAR_GA_DAYS} == 192){
-if ({VAR_BIRTHWEIGHT} < 789) "p<3";
-else if ({VAR_BIRTHWEIGHT} <831)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <889)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1054)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1227)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1291)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1339)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 789) "<3";
+else if ({VAR_BIRTHWEIGHT} <831)"3-5";
+else if ({VAR_BIRTHWEIGHT} <889)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1054)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1227)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1291)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1339)"95-97";
+else ">97";}
 // 27.4
 else if ({VAR_GA_DAYS} == 193){
-if ({VAR_BIRTHWEIGHT} < 805) "p<3";
-else if ({VAR_BIRTHWEIGHT} <848)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <907)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1075)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1252)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1317)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1366)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 805) "<3";
+else if ({VAR_BIRTHWEIGHT} <848)"3-5";
+else if ({VAR_BIRTHWEIGHT} <907)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1075)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1252)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1317)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1366)"95-97";
+else ">97";}
 // 27.5
 else if ({VAR_GA_DAYS} == 194){
-if ({VAR_BIRTHWEIGHT} < 821) "p<3";
-else if ({VAR_BIRTHWEIGHT} <865)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <925)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1097)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1277)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1343)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1394)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 821) "<3";
+else if ({VAR_BIRTHWEIGHT} <865)"3-5";
+else if ({VAR_BIRTHWEIGHT} <925)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1097)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1277)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1343)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1394)"95-97";
+else ">97";}
 // 27.6
 else if ({VAR_GA_DAYS} == 195){
-if ({VAR_BIRTHWEIGHT} < 838) "p<3";
-else if ({VAR_BIRTHWEIGHT} <882)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <943)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1118)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1301)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1369)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1421)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 838) "<3";
+else if ({VAR_BIRTHWEIGHT} <882)"3-5";
+else if ({VAR_BIRTHWEIGHT} <943)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1118)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1301)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1369)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1421)"95-97";
+else ">97";}
 // 28 weeks (exact)
 else if ({VAR_GA_DAYS} == 196){
-if ({VAR_BIRTHWEIGHT} < 854) "p<3";
-else if ({VAR_BIRTHWEIGHT} <899)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <961)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1139)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1326)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1395)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1448)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 854) "<3";
+else if ({VAR_BIRTHWEIGHT} <899)"3-5";
+else if ({VAR_BIRTHWEIGHT} <961)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1139)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1326)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1395)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1448)"95-97";
+else ">97";}
 // 28.1
 else if ({VAR_GA_DAYS} == 197){
-if ({VAR_BIRTHWEIGHT} < 920) "p<3";
-else if ({VAR_BIRTHWEIGHT} <968)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1034)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1223)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1416)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1485)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1536)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 870) "<3";
+else if ({VAR_BIRTHWEIGHT} <916)"3-5";
+else if ({VAR_BIRTHWEIGHT} <979)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1161)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1351)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1422)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1475)"95-97";
+else ">97";}
 // 28.2
 else if ({VAR_GA_DAYS} == 198){
-if ({VAR_BIRTHWEIGHT} < 937) "p<3";
-else if ({VAR_BIRTHWEIGHT} <986)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1052)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1245)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1442)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1512)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1564)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 886) "<3";
+else if ({VAR_BIRTHWEIGHT} <933)"3-5";
+else if ({VAR_BIRTHWEIGHT} <997)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1182)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1376)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1448)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1502)"95-97";
+else ">97";}
 // 28.3
 else if ({VAR_GA_DAYS} == 199){
-if ({VAR_BIRTHWEIGHT} < 953) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1003)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1071)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1267)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1467)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1539)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1592)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 903) "<3";
+else if ({VAR_BIRTHWEIGHT} <950)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1015)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1203)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1401)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1474)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1530)"95-97";
+else ">97";}
 // 28.4
 else if ({VAR_GA_DAYS} == 200){
-if ({VAR_BIRTHWEIGHT} < 970) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1021)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1090)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1289)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1493)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1566)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1621)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 919) "<3";
+else if ({VAR_BIRTHWEIGHT} <967)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1033)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1225)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1426)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1501)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1558)"95-97";
+else ">97";}
 // 28.5
 else if ({VAR_GA_DAYS} == 201){
-if ({VAR_BIRTHWEIGHT} < 987) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1039)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1109)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1311)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1519)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1594)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1649)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 935) "<3";
+else if ({VAR_BIRTHWEIGHT} <984)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1052)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1246)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1452)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1528)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1585)"95-97";
+else ">97";}
 // 28.6
 else if ({VAR_GA_DAYS} == 202){
-if ({VAR_BIRTHWEIGHT} < 1005) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1057)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1128)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1334)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1545)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1622)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1679)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 952) "<3";
+else if ({VAR_BIRTHWEIGHT} <1002)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1070)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1268)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1477)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1555)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1614)"95-97";
+else ">97";}
 // 29 weeks (exact)
 else if ({VAR_GA_DAYS} == 203){
-if ({VAR_BIRTHWEIGHT} < 1022) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1075)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1147)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1356)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1572)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1650)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1709)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 968) "<3";
+else if ({VAR_BIRTHWEIGHT} <1019)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1088)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1290)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1503)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1582)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1642)"95-97";
+else ">97";}
 // 29.1
 else if ({VAR_GA_DAYS} == 204){
-if ({VAR_BIRTHWEIGHT} < 1040) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1075)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1147)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1356)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1572)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1650)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1709)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 985) "<3";
+else if ({VAR_BIRTHWEIGHT} <1036)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1107)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1312)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1529)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1610)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1671)"95-97";
+else ">97";}
 // 29.2
 else if ({VAR_GA_DAYS} == 205){
-if ({VAR_BIRTHWEIGHT} < 1058) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1113)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1187)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1403)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1627)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1708)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1769)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1001) "<3";
+else if ({VAR_BIRTHWEIGHT} <1054)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1125)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1334)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1555)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1637)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1700)"95-97";
+else ">97";}
 // 29.3
 else if ({VAR_GA_DAYS} == 206){
-if ({VAR_BIRTHWEIGHT} < 1076) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1132)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1207)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1426)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1654)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1737)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1799)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1018) "<3";
+else if ({VAR_BIRTHWEIGHT} <1071)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1144)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1357)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1582)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1666)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1729)"95-97";
+else ">97";}
 // 29.4
 else if ({VAR_GA_DAYS} == 207){
-if ({VAR_BIRTHWEIGHT} < 1095) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1151)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1227)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1450)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1682)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1766)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1830)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1035) "<3";
+else if ({VAR_BIRTHWEIGHT} <1089)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1163)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1380)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1609)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1694)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1759)"95-97";
+else ">97";}
 // 29.5
 else if ({VAR_GA_DAYS} == 208){
-if ({VAR_BIRTHWEIGHT} < 1113) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1170)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1247)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1473)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1709)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1795)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1860)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1052) "<3";
+else if ({VAR_BIRTHWEIGHT} <1107)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1182)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1403)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1636)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1723)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1789)"95-97";
+else ">97";}
 // 29.6
 else if ({VAR_GA_DAYS} == 209){
-if ({VAR_BIRTHWEIGHT} < 1132) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1189)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1268)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1497)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1737)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1825)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1891)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1069) "<3";
+else if ({VAR_BIRTHWEIGHT} <1125)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1202)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1426)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1664)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1752)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1819)"95-97";
+else ">97";}
 // 30 weeks (exact)
 else if ({VAR_GA_DAYS} == 210){
-if ({VAR_BIRTHWEIGHT} < 1150) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1208)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1288)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1521)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1765)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1854)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1922)"p95-p97";
-else "p>97";}
-// 31.1
+if ({VAR_BIRTHWEIGHT} < 1087) "<3";
+else if ({VAR_BIRTHWEIGHT} <1144)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1221)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1449)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1692)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1782)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1850)"95-97";
+else ">97";}
+// 30.1
 else if ({VAR_GA_DAYS} == 211){
-if ({VAR_BIRTHWEIGHT} < 1169) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1228)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1309)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1545)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1793)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1884)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1953)"p95-p97";
-else "p>97";}
-// 31.2
+if ({VAR_BIRTHWEIGHT} < 1105) "<3";
+else if ({VAR_BIRTHWEIGHT} <1162)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1241)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1473)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1720)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1812)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1881)"95-97";
+else ">97";}
+// 30.2
 else if ({VAR_GA_DAYS} == 212){
-if ({VAR_BIRTHWEIGHT} < 1188) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1248)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1330)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1569)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1822)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1914)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <1984)"p95-p97";
-else "p>97";}
-// 31.3
+if ({VAR_BIRTHWEIGHT} < 1123) "<3";
+else if ({VAR_BIRTHWEIGHT} <1181)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1262)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1498)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1749)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1842)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1913)"95-97";
+else ">97";}
+// 30.3
 else if ({VAR_GA_DAYS} == 213){
-if ({VAR_BIRTHWEIGHT} < 1208) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1268)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1351)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1594)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1851)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1945)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2016)"p95-p97";
-else "p>97";}
-// 31.4
+if ({VAR_BIRTHWEIGHT} < 1142) "<3";
+else if ({VAR_BIRTHWEIGHT} <1201)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1282)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1522)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1778)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1873)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1945)"95-97";
+else ">97";}
+// 30.4
 else if ({VAR_GA_DAYS} == 214){
-if ({VAR_BIRTHWEIGHT} < 1227) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1289)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1373)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1619)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1880)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <1976)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2049)"p95-p97";
-else "p>97";}
-// 31.5
+if ({VAR_BIRTHWEIGHT} < 1161) "<3";
+else if ({VAR_BIRTHWEIGHT} <1221)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1303)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1547)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1808)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1905)"90-95";
+else if ({VAR_BIRTHWEIGHT} <1978)"95-97";
+else ">97";}
+// 30.5
 else if ({VAR_GA_DAYS} == 215){
-if ({VAR_BIRTHWEIGHT} < 1247) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1309)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1395)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1645)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1910)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2008)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2082)"p95-p97";
-else "p>97";}
-// 31.6
+if ({VAR_BIRTHWEIGHT} < 1180) "<3";
+else if ({VAR_BIRTHWEIGHT} <1241)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1325)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1573)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1838)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1936)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2011)"95-97";
+else ">97";}
+// 30.6
 else if ({VAR_GA_DAYS} == 216){
-if ({VAR_BIRTHWEIGHT} < 1268) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1330)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1417)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1671)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1941)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2040)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2115)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1200) "<3";
+else if ({VAR_BIRTHWEIGHT} <1261)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1346)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1599)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1869)"50-90";
+else if ({VAR_BIRTHWEIGHT} <1969)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2044)"95-97";
+else ">97";}
 // 31 weeks (exact)
 else if ({VAR_GA_DAYS} == 217){
-if ({VAR_BIRTHWEIGHT} < 1288) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1352)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1439)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1697)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <1972)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2073)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2149)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1220) "<3";
+else if ({VAR_BIRTHWEIGHT} <1282)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1368)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1625)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1900)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2001)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2078)"95-97";
+else ">97";}
 // 31.1
 else if ({VAR_GA_DAYS} == 218){
-if ({VAR_BIRTHWEIGHT} < 1310) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1374)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1462)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1724)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2003)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2106)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2184)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1240) "<3";
+else if ({VAR_BIRTHWEIGHT} <1303)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1391)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1652)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1931)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2035)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2112)"95-97";
+else ">97";}
 // 31.2
 else if ({VAR_GA_DAYS} == 219){
-if ({VAR_BIRTHWEIGHT} < 1331) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1396)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1486)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1751)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2035)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2140)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2219)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1261) "<3";
+else if ({VAR_BIRTHWEIGHT} <1325)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1414)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1678)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1963)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2068)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2147)"95-97";
+else ">97";}
 // 31.3
 else if ({VAR_GA_DAYS} == 220){
-if ({VAR_BIRTHWEIGHT} < 1352) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1418)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1509)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1779)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2068)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2174)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2254)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1282) "<3";
+else if ({VAR_BIRTHWEIGHT} <1347)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1436)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1706)"10-50";
+else if ({VAR_BIRTHWEIGHT} <1995)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2102)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2182)"95-97";
+else ">97";}
 //31.4
 else if ({VAR_GA_DAYS} == 221){
-if ({VAR_BIRTHWEIGHT} < 1374) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1441)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1533)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1807)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2101)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2209)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2290)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1303) "<3";
+else if ({VAR_BIRTHWEIGHT} <1369)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1460)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1733)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2028)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2136)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2217)"95-97";
+else ">97";}
 //31.5
 else if ({VAR_GA_DAYS} == 222){
-if ({VAR_BIRTHWEIGHT} < 1397) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1464)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1557)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1835)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2134)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2244)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2327)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1325) "<3";
+else if ({VAR_BIRTHWEIGHT} <1391)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1483)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1761)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2060)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2170)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2252)"95-97";
+else ">97";}
 //31.6
 else if ({VAR_GA_DAYS} == 223){
-if ({VAR_BIRTHWEIGHT} < 1419) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1487)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1581)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1864)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2168)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2279)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2364)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1346) "<3";
+else if ({VAR_BIRTHWEIGHT} <1413)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1506)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1789)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2093)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2205)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2288)"95-97";
+else ">97";}
 // 32 weeks (exact)
 else if ({VAR_GA_DAYS} == 224){
-if ({VAR_BIRTHWEIGHT} < 1442) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1510)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1606)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1893)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2202)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2315)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2401)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1368) "<3";
+else if ({VAR_BIRTHWEIGHT} <1436)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1530)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1817)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2126)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2239)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2324)"95-97";
+else ">97";}
 // 32.1
 else if ({VAR_GA_DAYS} == 225){
-if ({VAR_BIRTHWEIGHT} < 1465) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1534)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1631)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1922)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2236)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2352)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2438)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1390) "<3";
+else if ({VAR_BIRTHWEIGHT} <1458)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1554)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1845)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2160)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2274)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2360)"95-97";
+else ">97";}
 // 32.2
 else if ({VAR_GA_DAYS} == 226){
-if ({VAR_BIRTHWEIGHT} < 1488) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1558)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1656)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1952)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2271)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2389)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2477)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1413) "<3";
+else if ({VAR_BIRTHWEIGHT} <1481)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1578)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1873)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2193)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2310)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2396)"95-97";
+else ">97";}
 // 32.3
 else if ({VAR_GA_DAYS} == 227){
-if ({VAR_BIRTHWEIGHT} < 1511) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1582)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1681)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <1982)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2307)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2426)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2515)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1435) "<3";
+else if ({VAR_BIRTHWEIGHT} <1504)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1602)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1902)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2227)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2345)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2433)"95-97";
+else ">97";}
 // 32.4
 else if ({VAR_GA_DAYS} == 228){
-if ({VAR_BIRTHWEIGHT} < 1535) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1606)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1707)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <20212)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2343)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2464)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2554)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1457) "<3";
+else if ({VAR_BIRTHWEIGHT} <1528)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1627)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1931)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2261)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2381)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2470)"95-97";
+else ">97";}
 // 32.5
 else if ({VAR_GA_DAYS} == 229){
-if ({VAR_BIRTHWEIGHT} < 1559) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1631)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1733)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2043)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2379)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2502)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2594)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1480) "<3";
+else if ({VAR_BIRTHWEIGHT} <1551)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1651)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1960)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2295)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2417)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2507)"95-97";
+else ">97";}
 //32.6
 else if ({VAR_GA_DAYS} == 230){
-if ({VAR_BIRTHWEIGHT} < 1583) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1656)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1759)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2074)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2416)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2541)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2634)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1503) "<3";
+else if ({VAR_BIRTHWEIGHT} <1574)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1676)"5-10";
+else if ({VAR_BIRTHWEIGHT} <1989)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2330)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2453)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2544)"95-97";
+else ">97";}
 // 33 weeks (exact)
 else if ({VAR_GA_DAYS} == 231){
-if ({VAR_BIRTHWEIGHT} < 1607) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1681)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1785)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2105)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2453)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2580)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2674)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1526) "<3";
+else if ({VAR_BIRTHWEIGHT} <1598)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1700)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2019)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2365)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2489)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2582)"95-97";
+else ">97";}
 // 33.1
 else if ({VAR_GA_DAYS} == 232){
-if ({VAR_BIRTHWEIGHT} < 1632) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1706)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1811)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2137)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2491)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2619)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2714)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1549) "<3";
+else if ({VAR_BIRTHWEIGHT} <1622)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1725)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2048)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2400)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2526)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2620)"95-97";
+else ">97";}
 // 33.2
 else if ({VAR_GA_DAYS} == 233){
-if ( {VAR_BIRTHWEIGHT} < 1656) "p<3"; 
-else if ( {VAR_BIRTHWEIGHT} <1731)"p3-p5"; 
-else if ( {VAR_BIRTHWEIGHT} <1838)"p5-p10"; 
-else if ( {VAR_BIRTHWEIGHT} <2168)"p10-p50"; 
-else if ( {VAR_BIRTHWEIGHT} <2528)"p50-p90"; 
-else if ( {VAR_BIRTHWEIGHT} <2659)"p90-p95"; 
-else if ( {VAR_BIRTHWEIGHT} <2755)"p95-p97"; 
-else "p>97";}
+if ( {VAR_BIRTHWEIGHT} < 1572) "<3"; 
+else if ( {VAR_BIRTHWEIGHT} <1646)"3-5"; 
+else if ( {VAR_BIRTHWEIGHT} <1751)"5-10"; 
+else if ( {VAR_BIRTHWEIGHT} <2078)"10-50"; 
+else if ( {VAR_BIRTHWEIGHT} <2435)"50-90"; 
+else if ( {VAR_BIRTHWEIGHT} <2563)"90-95"; 
+else if ( {VAR_BIRTHWEIGHT} <2658)"95-97"; 
+else ">97";}
 // 33.3
 else if ({VAR_GA_DAYS} == 234){
-if ({VAR_BIRTHWEIGHT} < 1681) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1757)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1864)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2200)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2566)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2698)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2796)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1596) "<3";
+else if ({VAR_BIRTHWEIGHT} <1670)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1776)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2109)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2471)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2601)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2697)"95-97";
+else ">97";}
 // 33.4
 else if ({VAR_GA_DAYS} == 235){
-if ({VAR_BIRTHWEIGHT} < 1705) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1782)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1891)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2232)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2604)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2738)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2837)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1619) "<3";
+else if ({VAR_BIRTHWEIGHT} <1695)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1802)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2139)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2507)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2639)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2736)"95-97";
+else ">97";}
 // 33.5
 else if ({VAR_GA_DAYS} == 236){
-if ({VAR_BIRTHWEIGHT} < 1730) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1807)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1918)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2264)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2642)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2778)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2878)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1643) "<3";
+else if ({VAR_BIRTHWEIGHT} <1719)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1828)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2170)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2544)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2678)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2776)"95-97";
+else ">97";}
 // 33.6
 else if ({VAR_GA_DAYS} == 237){
-if ({VAR_BIRTHWEIGHT} < 1755) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1833)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1944)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2296)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2680)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2817)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2918)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1668) "<3";
+else if ({VAR_BIRTHWEIGHT} <1744)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1854)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2202)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2581)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2717)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2816)"95-97";
+else ">97";}
 // 34 weeks (exact)
 else if ({VAR_GA_DAYS} == 238){
-if ({VAR_BIRTHWEIGHT} < 1780) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1858)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1971)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2328)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2719)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2857)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <2959)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1692) "<3";
+else if ({VAR_BIRTHWEIGHT} <1770)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1881)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2233)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2619)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2756)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2857)"95-97";
+else ">97";}
 // 34.1
 else if ({VAR_GA_DAYS} == 239){
-if ({VAR_BIRTHWEIGHT} < 1805) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1884)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1998)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2361)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2757)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2897)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3000)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1717) "<3";
+else if ({VAR_BIRTHWEIGHT} <1795)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1907)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2265)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2657)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2796)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2898)"95-97";
+else ">97";}
 // 34.2
 else if ({VAR_GA_DAYS} == 240){
-if ({VAR_BIRTHWEIGHT} < 1830) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1910)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2025)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2393)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2795)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2937)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3041)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1741) "<3";
+else if ({VAR_BIRTHWEIGHT} <1821)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1934)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2297)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2695)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2835)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2939)"95-97";
+else ">97";}
 // 34.3
 else if ({VAR_GA_DAYS} == 241){
-if ({VAR_BIRTHWEIGHT} < 1855) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1936)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2052)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2425)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2833)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2977)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3082)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1766) "<3";
+else if ({VAR_BIRTHWEIGHT} <1846)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1961)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2329)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2733)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2875)"90-95";
+else if ({VAR_BIRTHWEIGHT} <2980)"95-97";
+else ">97";}
 //34.4
 else if ({VAR_GA_DAYS} == 242){
-if ({VAR_BIRTHWEIGHT} < 1880) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1962)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2079)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2458)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2872)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3017)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3122)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1791) "<3";
+else if ({VAR_BIRTHWEIGHT} <1872)"3-5";
+else if ({VAR_BIRTHWEIGHT} <1988)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2361)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2771)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2915)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3021)"95-97";
+else ">97";}
 //34.5
 else if ({VAR_GA_DAYS} == 243){
-if ({VAR_BIRTHWEIGHT} < 1906) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1988)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2107)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2490)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2910)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3056)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3163)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1817) "<3";
+else if ({VAR_BIRTHWEIGHT} <1898)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2015)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2394)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2809)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2955)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3062)"95-97";
+else ">97";}
 // 34.6
 else if ({VAR_GA_DAYS} == 244){
-if ({VAR_BIRTHWEIGHT} < 1805) "p<3";
-else if ({VAR_BIRTHWEIGHT} <1884)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <1998)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2361)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2757)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <2897)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3000)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1842) "<3";
+else if ({VAR_BIRTHWEIGHT} <1924)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2043)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2426)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2847)"50-90";
+else if ({VAR_BIRTHWEIGHT} <2995)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3102)"95-97";
+else ">97";}
 // 35 weeks (exact)
 else if ({VAR_GA_DAYS} == 245){
-if ({VAR_BIRTHWEIGHT} < 1956) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2040)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2161)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2555)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <2986)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3135)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3242)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1867) "<3";
+else if ({VAR_BIRTHWEIGHT} <1950)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2070)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2458)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2885)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3034)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3143)"95-97";
+else ">97";}
 // 35.1
 else if ({VAR_GA_DAYS} == 246){
-if ({VAR_BIRTHWEIGHT} < 1981) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2065)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2188)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2587)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3023)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3173)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3282)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1893) "<3";
+else if ({VAR_BIRTHWEIGHT} <1976)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2097)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2490)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2922)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3073)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3183)"95-97";
+else ">97";}
 // 35.2
 else if ({VAR_GA_DAYS} == 247){
-if ({VAR_BIRTHWEIGHT} < 2006) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2091)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2215)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2619)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3060)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3212)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3321)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1918) "<3";
+else if ({VAR_BIRTHWEIGHT} <2002)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2124)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2522)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2959)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3112)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3222)"95-97";
+else ">97";}
 // 35.3
 else if ({VAR_GA_DAYS} == 248){
-if ({VAR_BIRTHWEIGHT} < 2031) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2116)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2241)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2651)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3097)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3249)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3359)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1943) "<3";
+else if ({VAR_BIRTHWEIGHT} <2028)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2151)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2553)"10-50";
+else if ({VAR_BIRTHWEIGHT} <2996)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3150)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3261)"95-97";
+else ">97";}
 // 35.4
 else if ({VAR_GA_DAYS} == 249){
-if ({VAR_BIRTHWEIGHT} < 2055) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2141)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2267)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2682)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3133)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3287)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3397)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1969) "<3";
+else if ({VAR_BIRTHWEIGHT} <2053)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2177)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2584)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3032)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3187)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3300)"95-97";
+else ">97";}
 //35.5
 else if ({VAR_GA_DAYS} == 250){
-if ({VAR_BIRTHWEIGHT} < 2078) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2165)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2292)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2712)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3169)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3324)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3434)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 1994) "<3";
+else if ({VAR_BIRTHWEIGHT} <2079)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2204)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2615)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3068)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3224)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3337)"95-97";
+else ">97";}
 //35.6
 else if ({VAR_GA_DAYS} == 251){
-if ({VAR_BIRTHWEIGHT} < 2102) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2190)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2318)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2743)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3205)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3360)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3471)"p95-p97";
-else "p>97";}
-// 36 weeks (exact)
+if ({VAR_BIRTHWEIGHT} < 2019) "<3";
+else if ({VAR_BIRTHWEIGHT} <2104)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2230)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2646)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3104)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3261)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3374)"95-97";
+else ">97";}
+// 36 weeks (exact).....
 else if ({VAR_GA_DAYS} == 252){
-if ({VAR_BIRTHWEIGHT} < 2126) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2214)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2344)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2774)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3241)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3397)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3508)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2044) "<3";
+else if ({VAR_BIRTHWEIGHT} <2130)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2256)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2676)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3139)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3297)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3411)"95-97";
+else ">97";}
 // 36.1
 else if ({VAR_GA_DAYS} == 253){
-if ({VAR_BIRTHWEIGHT} < 2150) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2239)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2369)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2805)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3277)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3434)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3546)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2069) "<3";
+else if ({VAR_BIRTHWEIGHT} <2155)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2282)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2706)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3174)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3333)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3448)"95-97";
+else ">97";}
 //36.2
 else if ({VAR_GA_DAYS} == 254){
-if ({VAR_BIRTHWEIGHT} < 2174) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2263)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2395)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2836)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3313)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3472)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3584)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2093) "<3";
+else if ({VAR_BIRTHWEIGHT} <2180)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2308)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2736)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3209)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3369)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3484)"95-97";
+else ">97";}
 //36.3
 else if ({VAR_GA_DAYS} == 255){
-if ({VAR_BIRTHWEIGHT} < 2198) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2289)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2422)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2868)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3351)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3510)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3623)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2118) "<3";
+else if ({VAR_BIRTHWEIGHT} <2205)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2334)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2766)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3243)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3405)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3520)"95-97";
+else ">97";}
 // 36.4
 else if ({VAR_GA_DAYS} == 256){
-if ({VAR_BIRTHWEIGHT} < 2223) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2314)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2449)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2901)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3389)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3550)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3663)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2143) "<3";
+else if ({VAR_BIRTHWEIGHT} <2230)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2360)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2796)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3278)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3441)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3557)"95-97";
+else ">97";}
 // 36.5
 else if ({VAR_GA_DAYS} == 257){
-if ({VAR_BIRTHWEIGHT} < 2249) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2340)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2476)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2934)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3427)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3589)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3703)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2167) "<3";
+else if ({VAR_BIRTHWEIGHT} <2255)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2385)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2826)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3313)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3477)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3593)"95-97";
+else ">97";}
 // 36.6
 else if ({VAR_GA_DAYS} == 258){
-if ({VAR_BIRTHWEIGHT} < 2274) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2367)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2504)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <2967)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3466)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3629)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3743)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2192) "<3";
+else if ({VAR_BIRTHWEIGHT} <2280)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2411)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2856)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3348)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3512)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3629)"95-97";
+else ">97";}
 // 37 weeks (exact)
 else if ({VAR_GA_DAYS} == 259){
-if ({VAR_BIRTHWEIGHT} < 2300) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2393)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2531)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3000)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3504)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3668)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3783)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2217) "<3";
+else if ({VAR_BIRTHWEIGHT} <2305)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2437)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2886)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3382)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3548)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3665)"95-97";
+else ">97";}
 // 37.1
 else if ({VAR_GA_DAYS} == 260){
-if ({VAR_BIRTHWEIGHT} < 2327) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2420)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2559)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3033)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3542)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3707)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3822)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2242) "<3";
+else if ({VAR_BIRTHWEIGHT} <2331)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2463)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2916)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3416)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3583)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3700)"95-97";
+else ">97";}
 // 37.2
 else if ({VAR_GA_DAYS} == 261){
-if ({VAR_BIRTHWEIGHT} < 2353) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2447)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2587)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3065)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3579)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3745)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3860)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2267) "<3";
+else if ({VAR_BIRTHWEIGHT} <2356)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2489)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2946)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3451)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3618)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3736)"95-97";
+else ">97";}
 // 37.3
 else if ({VAR_GA_DAYS} == 262){
-if ({VAR_BIRTHWEIGHT} < 2380) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2474)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2616)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3098)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3615)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3782)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3897)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2293) "<3";
+else if ({VAR_BIRTHWEIGHT} <2382)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2515)"5-10";
+else if ({VAR_BIRTHWEIGHT} <2976)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3485)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3652)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3770)"95-97";
+else ">97";}
 // 37.4
 else if ({VAR_GA_DAYS} == 263){
-if ({VAR_BIRTHWEIGHT} < 2407) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2502)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2644)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3129)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3650)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3817)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3933)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2319) "<3";
+else if ({VAR_BIRTHWEIGHT} <2408)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2542)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3006)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3518)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3687)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3804)"95-97";
+else ">97";}
 // 37.5
 else if ({VAR_GA_DAYS} == 264){
-if ({VAR_BIRTHWEIGHT} < 2435) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2529)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2671)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3160)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3684)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3851)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <3967)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2345) "<3";
+else if ({VAR_BIRTHWEIGHT} <2434)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2569)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3036)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3551)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3720)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3838)"95-97";
+else ">97";}
 // 37.6
 else if ({VAR_GA_DAYS} == 265){
-if ({VAR_BIRTHWEIGHT} < 2462) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2557)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2699)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3190)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3717)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3885)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4000)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2371) "<3";
+else if ({VAR_BIRTHWEIGHT} <2461)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2595)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3065)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3584)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3753)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3871)"95-97";
+else ">97";}
 // 38 weeks (exact)
 else if ({VAR_GA_DAYS} == 266){
-if ({VAR_BIRTHWEIGHT} < 2490) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2584)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2727)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3221)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3750)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3917)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4032)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2398) "<3";
+else if ({VAR_BIRTHWEIGHT} <2487)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2622)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3095)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3616)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3785)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3903)"95-97";
+else ">97";}
 // 38.1
 else if ({VAR_GA_DAYS} == 267){
-if ({VAR_BIRTHWEIGHT} < 2517) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2612)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2755)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3250)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3781)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3949)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4064)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2424) "<3";
+else if ({VAR_BIRTHWEIGHT} <2513)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2648)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3123)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3647)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3817)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3934)"95-97";
+else ">97";}
 // 38.2
 else if ({VAR_GA_DAYS} == 268){
-if ({VAR_BIRTHWEIGHT} < 2545) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2639)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2782)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3280)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3812)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <3980)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4095)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2451) "<3";
+else if ({VAR_BIRTHWEIGHT} <2540)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2675)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3152)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3678)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3847)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3964)"95-97";
+else ">97";}
 // 38.3
 else if ({VAR_GA_DAYS} == 269){
-if ({VAR_BIRTHWEIGHT} < 2572) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2667)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2810)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3309)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3843)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4011)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4126)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2477) "<3";
+else if ({VAR_BIRTHWEIGHT} <2566)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2701)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3180)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3707)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3876)"90-95";
+else if ({VAR_BIRTHWEIGHT} <3993)"95-97";
+else ">97";}
 // 38.4
 else if ({VAR_GA_DAYS} == 270){
-if ({VAR_BIRTHWEIGHT} < 2599) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2694)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2837)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3337)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3874)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4042)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4156)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2503) "<3";
+else if ({VAR_BIRTHWEIGHT} <2592)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2727)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3207)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3736)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3905)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4021)"95-97";
+else ">97";}
 // 38.5
 else if ({VAR_GA_DAYS} == 271){
-if ({VAR_BIRTHWEIGHT} < 2626) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2721)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2864)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3366)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3904)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4072)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4187)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2529) "<3";
+else if ({VAR_BIRTHWEIGHT} <2618)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2753)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3234)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3764)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3933)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4048)"95-97";
+else ">97";}
 // 38.6
 else if ({VAR_GA_DAYS} == 272){
-if ({VAR_BIRTHWEIGHT} < 2653) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2747)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2890)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3394)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3934)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4102)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4217)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2555) "<3";
+else if ({VAR_BIRTHWEIGHT} <2643)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2778)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3260)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3791)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3960)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4075)"95-97";
+else ">97";}
 // 39 weeks (exact)
 else if ({VAR_GA_DAYS} == 273){
-if ({VAR_BIRTHWEIGHT} < 2679) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2773)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2917)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3422)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3964)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4132)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4247)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2580) "<3";
+else if ({VAR_BIRTHWEIGHT} <2668)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2803)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3287)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3818)"50-90";
+else if ({VAR_BIRTHWEIGHT} <3986)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4101)"95-97";
+else ">97";}
 // 39.1
 else if ({VAR_GA_DAYS} == 274){
-if ({VAR_BIRTHWEIGHT} < 2705) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2799)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2942)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3450)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <3993)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4162)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4277)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2605) "<3";
+else if ({VAR_BIRTHWEIGHT} <2693)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2828)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3313)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3845)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4013)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4127)"95-97";
+else ">97";}
 // 39.2
 else if ({VAR_GA_DAYS} == 275){
-if ({VAR_BIRTHWEIGHT} < 2730) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2824)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2968)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3477)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4023)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4192)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4307)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2629) "<3";
+else if ({VAR_BIRTHWEIGHT} <2717)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2852)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3338)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3872)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4040)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4154)"95-97";
+else ">97";}
 // 39.3
 else if ({VAR_GA_DAYS} == 276){
-if ({VAR_BIRTHWEIGHT} < 2754) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2849)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <2993)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3504)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4053)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4222)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4337)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2653) "<3";
+else if ({VAR_BIRTHWEIGHT} <2741)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2876)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3364)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3899)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4066)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4180)"95-97";
+else ">97";}
 // 39.4
 else if ({VAR_GA_DAYS} == 277){
- if ({VAR_BIRTHWEIGHT} < 2778) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2872)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3017)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3531)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4082)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4252)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4367)"p95-p97";
-else "p>97";}
+ if ({VAR_BIRTHWEIGHT} < 2677) "<3";
+else if ({VAR_BIRTHWEIGHT} <2765)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2900)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3389)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3926)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4093)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4207)"95-97";
+else ">97";}
 // 39.5
 else if ({VAR_GA_DAYS} == 278){
-if ({VAR_BIRTHWEIGHT} < 2801) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2896)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3041)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3557)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4111)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4282)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4397)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2700) "<3";
+else if ({VAR_BIRTHWEIGHT} <2788)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2923)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3414)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3952)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4120)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4233)"95-97";
+else ">97";}
 // 39.6
 else if ({VAR_GA_DAYS} == 279){
-if ({VAR_BIRTHWEIGHT} < 2823) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2918)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3064)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3583)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4139)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4311)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4426)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2722) "<3";
+else if ({VAR_BIRTHWEIGHT} <2810)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2946)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3439)"10-50";
+else if ({VAR_BIRTHWEIGHT} <3979)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4146)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4260)"95-97";
+else ">97";}
 // 40 weeks (exact)
 else if ({VAR_GA_DAYS} == 280){
-if ({VAR_BIRTHWEIGHT} < 2845) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2940)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3086)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3608)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4167)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4339)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4455)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2743) "<3";
+else if ({VAR_BIRTHWEIGHT} <2831)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2968)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3463)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4005)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4173)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4286)"95-97";
+else ">97";}
 // 40.1
 else if ({VAR_GA_DAYS} == 281){
-if ({VAR_BIRTHWEIGHT} < 2865) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2961)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3108)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3632)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4195)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4367)"p90-p95";
-else if (7 &&{VAR_BIRTHWEIGHT} <4483)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2763) "<3";
+else if ({VAR_BIRTHWEIGHT} <2852)"3-5";
+else if ({VAR_BIRTHWEIGHT} <2989)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3486)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4030)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4199)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4313)"95-97";
+else ">97";}
 // 40.2
 else if ({VAR_GA_DAYS} == 282){
-if ({VAR_BIRTHWEIGHT} < 2885) "p<3";
-else if ({VAR_BIRTHWEIGHT} <2981)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3128)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3656)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4221)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4394)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4511)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2782) "<3";
+else if ({VAR_BIRTHWEIGHT} <2871)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3009)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3509)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4056)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4224)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4338)"95-97";
+else ">97";}
 // 40.3
 else if ({VAR_GA_DAYS} == 283){
-if ({VAR_BIRTHWEIGHT} < 2904) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3000)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3148)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3679)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4247)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4420)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4537)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2800) "<3";
+else if ({VAR_BIRTHWEIGHT} <2890)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3028)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3531)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4080)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4249)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4364)"95-97";
+else ">97";}
 // 40.4
 else if ({VAR_GA_DAYS} == 284){
-if ({VAR_BIRTHWEIGHT} < 2922) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3019)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3168)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3701)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4272)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4446)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4563)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2817) "<3";
+else if ({VAR_BIRTHWEIGHT} <2907)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3046)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3552)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4104)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4274)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4388)"95-97";
+else ">97";}
 // 40.5
 else if ({VAR_GA_DAYS} == 285){
-if ({VAR_BIRTHWEIGHT} < 2939) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3036)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3186)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3722)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4296)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4470)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4587)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2833) "<3";
+else if ({VAR_BIRTHWEIGHT} <2924)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3064)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3573)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4127)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4298)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4413)"95-97";
+else ">97";}
 // 40.6
 else if ({VAR_GA_DAYS} == 286){
-if ({VAR_BIRTHWEIGHT} < 2956) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3053)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3203)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3743)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4319)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4494)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4611)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2849) "<3";
+else if ({VAR_BIRTHWEIGHT} <2939)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3080)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3592)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4150)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4321)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4436)"95-97";
+else ">97";}
 // 41 weeks (exact)
 else if ({VAR_GA_DAYS} == 287){
-if ({VAR_BIRTHWEIGHT} < 2971) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3069)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3220)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3762)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4342)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4517)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4653)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2863) "<3";
+else if ({VAR_BIRTHWEIGHT} <2954)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3096)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3611)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4172)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4343)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4459)"95-97";
+else ">97";}
 // 41.1
 else if ({VAR_GA_DAYS} == 288){
-if ({VAR_BIRTHWEIGHT} < 2986) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3084)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3236)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3782)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4364)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4540)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4658)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2876) "<3";
+else if ({VAR_BIRTHWEIGHT} <2968)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3111)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3629)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4193)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4365)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4481)"95-97";
+else ">97";}
 // 41.2
 else if ({VAR_GA_DAYS} == 289){
-if ({VAR_BIRTHWEIGHT} < 2999) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3099)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3251)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3800)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4385)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4562)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4680)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2889) "<3";
+else if ({VAR_BIRTHWEIGHT} <2981)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3125)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3646)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4213)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4386)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4502)"95-97";
+else ">97";}
 // 41.3
 else if ({VAR_GA_DAYS} == 290){
-if ({VAR_BIRTHWEIGHT} < 3012) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3112)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3266)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3819)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4407)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4584)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4584)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2901) "<3";
+else if ({VAR_BIRTHWEIGHT} <2994)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3138)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3663)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4232)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4406)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4522)"95-97";
+else ">97";}
 // 41.4
 else if ({VAR_GA_DAYS} == 291){
-if ({VAR_BIRTHWEIGHT} < 3025) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3125)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3280)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3836)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4427)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4606)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4724)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2912) "<3";
+else if ({VAR_BIRTHWEIGHT} <3006)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3150)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3678)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4251)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4425)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4542)"95-97";
+else ">97";}
 // 41.5
 else if ({VAR_GA_DAYS} == 292){
-if ({VAR_BIRTHWEIGHT} < 3036) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3137)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3293)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3853)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4448)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4627)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4746)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2923) "<3";
+else if ({VAR_BIRTHWEIGHT} <3017)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3163)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3694)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4269)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4444)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4561)"95-97";
+else ">97";}
 // 41.6
 else if ({VAR_GA_DAYS} == 293){
-if ({VAR_BIRTHWEIGHT} < 3047) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3149)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3306)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3870)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4468)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4648)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4767)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2933) "<3";
+else if ({VAR_BIRTHWEIGHT} <3028)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3174)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3708)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4286)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4462)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4579)"95-97";
+else ">97";}
 // 42 weeks (exact)
 else if ({VAR_GA_DAYS} == 294){
-if ({VAR_BIRTHWEIGHT} < 3058) "p<3";
-else if ({VAR_BIRTHWEIGHT} <3160)"p3-p5";
-else if ({VAR_BIRTHWEIGHT} <3318)"p5-p10";
-else if ({VAR_BIRTHWEIGHT} <3886)"p10-p50";
-else if ({VAR_BIRTHWEIGHT} <4488)"p50-p90";
-else if ({VAR_BIRTHWEIGHT} <4668)"p90-p95";
-else if ({VAR_BIRTHWEIGHT} <4788)"p95-p97";
-else "p>97";}
+if ({VAR_BIRTHWEIGHT} < 2943) "<3";
+else if ({VAR_BIRTHWEIGHT} <3038)"3-5";
+else if ({VAR_BIRTHWEIGHT} <3185)"5-10";
+else if ({VAR_BIRTHWEIGHT} <3722)"10-50";
+else if ({VAR_BIRTHWEIGHT} <4303)"50-90";
+else if ({VAR_BIRTHWEIGHT} <4479)"90-95";
+else if ({VAR_BIRTHWEIGHT} <4597)"95-97";
+else ">97";}
